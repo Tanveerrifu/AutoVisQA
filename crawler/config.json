@@ -1,5 +1,5 @@
 {
-  "startUrl": "https://phitron.io",
+  "startUrl": "https://katalon-demo-cura.herokuapp.com/",
   "waitTime": 30000,
   "maxDepth": 3,
   "outputDir": "../results",

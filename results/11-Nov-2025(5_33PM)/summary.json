@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://katalon-demo-cura.herokuapp.com/",
+    "depth": 0,
+    "pdfPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\pdfs\\home.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\screenshots\\home.png",
+    "timeTaken": "32.87",
+    "timestamp": "2025-11-11T11:33:38.356Z"
+  },
+  {
+    "url": "https://katalon-demo-cura.herokuapp.com/#",
+    "depth": 1,
+    "pdfPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\pdfs\\home.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\screenshots\\home.png",
+    "timeTaken": "30.69",
+    "timestamp": "2025-11-11T11:34:09.137Z"
+  },
+  {
+    "url": "https://katalon-demo-cura.herokuapp.com/profile.php#login",
+    "depth": 2,
+    "pdfPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\pdfs\\profile.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\screenshots\\profile.png",
+    "timeTaken": "30.79",
+    "timestamp": "2025-11-11T11:34:40.004Z"
+  },
+  {
+    "url": "https://katalon-demo-cura.herokuapp.com/profile.php#",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\pdfs\\profile.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\screenshots\\profile.png",
+    "timeTaken": "32.41",
+    "timestamp": "2025-11-11T11:35:12.498Z"
+  },
+  {
+    "url": "https://katalon-demo-cura.herokuapp.com/profile.php#top",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\pdfs\\profile.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\screenshots\\profile.png",
+    "timeTaken": "30.80",
+    "timestamp": "2025-11-11T11:35:43.400Z"
+  },
+  {
+    "url": "https://katalon-demo-cura.herokuapp.com/#top",
+    "depth": 2,
+    "pdfPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\pdfs\\home.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\11-Nov-2025(5_33PM)\\screenshots\\home.png",
+    "timeTaken": "31.11",
+    "timestamp": "2025-11-11T11:36:14.636Z"
+  }
+]

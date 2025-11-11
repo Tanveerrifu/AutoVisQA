@@ -1,11 +1,9 @@
 /**
- * 🚀 QA Website Crawler v3.6 (Research-Ready)
- * --------------------------------------------
- * ✅ Crawls all internal pages
- * ✅ Saves both PDF + Screenshot per page
- * ✅ Organizes by date inside /results/YYYY-MM-DD/
- * ✅ Uses consistent filenames (for visual diff)
- * ✅ Fully compatible with analysis & visual regression tools
+ * 🚀 QA Website Crawler v3.8 (Readable Timestamp Folders)
+ * --------------------------------------------------------
+ * ✅ Folder names: 11-Nov-2025(5_27PM)
+ * ✅ Compatible with visual_diff.js + report generator
+ * ✅ Retains stable screenshot names for cross-run comparison
  */
 
 import puppeteer from "puppeteer";
@@ -16,16 +14,47 @@ import { URL } from "url";
 // === Load Configuration ===
 const config = JSON.parse(await fs.readFile("config.json", "utf-8"));
 
+// === Helper: format date as 11-Nov-2025(5_27PM)
+function formatTimestampFolder() {
+  const now = new Date();
+
+  const months = [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
+  ];
+
+  const day = String(now.getDate()).padStart(2, "0");
+  const month = months[now.getMonth()];
+  const year = now.getFullYear();
+
+  let hours = now.getHours();
+  const minutes = now.getMinutes().toString().padStart(2, "0");
+  const ampm = hours >= 12 ? "PM" : "AM";
+  hours = hours % 12 || 12;
+
+  // replace ":" with "_" because ":" isn’t valid in Windows folder names
+  return `${day}-${month}-${year}(${hours}_${minutes}${ampm})`;
+}
+
 // === Globals ===
 const visited = new Set();
 const results = [];
-const today = new Date().toISOString().split("T")[0];
 
-// ✅ Save results in ../results/YYYY-MM-DD/
-const baseDir = path.join(process.cwd(), config.outputDir, today);
+// ✅ Folder structure: /results/11-Nov-2025(5_27PM)/
+const folderName = formatTimestampFolder();
+const baseDir = path.join(process.cwd(), config.outputDir, folderName);
 await fs.ensureDir(baseDir);
 
-// === Helper: Wait ===
 const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 // === Crawl Logic ===
@@ -38,7 +67,7 @@ async function crawlPage(browser, currentUrl, depth = 0) {
   console.log(`🌐 Visiting (depth ${depth}): ${currentUrl}`);
 
   try {
-    // === Robust load with retries ===
+    // Retry logic
     for (let attempt = 1; attempt <= 3; attempt++) {
       try {
         await page.goto(currentUrl, {
@@ -59,41 +88,30 @@ async function crawlPage(browser, currentUrl, depth = 0) {
     console.log(`⏳ Waiting ${config.waitTime / 1000}s for content load...`);
     await wait(config.waitTime);
 
-    // === Consistent Filenames ===
+    // === Consistent filename generation ===
     const urlObj = new URL(currentUrl);
-    let pathname = urlObj.pathname.replace(/\/$/, ""); // remove trailing slash
+    let pathname = urlObj.pathname.replace(/\/$/, "");
     if (pathname === "" || pathname === "/") pathname = "/home";
 
     let sanitizedPath = pathname
-      .replace(/\.(html|php|aspx)$/i, "") // remove extensions
-      .replace(/[\/:?<>|#=&]/g, "_") // replace invalid chars
-      .replace(/^_+|_+$/g, ""); // trim underscores
+      .replace(/\.(html|php|aspx)$/i, "")
+      .replace(/[\/:?<>|#=&]/g, "_")
+      .replace(/^_+|_+$/g, "");
 
     const fileBase = sanitizedPath || "home";
 
-    // === Ensure output directories ===
+    // === Output folders ===
     const pdfDir = path.join(baseDir, "pdfs");
     const imgDir = path.join(baseDir, "screenshots");
     await fs.ensureDir(pdfDir);
     await fs.ensureDir(imgDir);
 
-    // === Save PDF ===
+    // === Save files ===
     const pdfPath = path.join(pdfDir, `${fileBase}.pdf`);
-    await page.pdf({ path: pdfPath, format: "A4", printBackground: true });
-
-    // === Save Screenshot ===
     const screenshotPath = path.join(imgDir, `${fileBase}.png`);
+    await page.pdf({ path: pdfPath, format: "A4", printBackground: true });
     await page.screenshot({ path: screenshotPath, fullPage: true });
 
-    // ✅ Verify file saved
-    const exists = await fs.pathExists(screenshotPath);
-    console.log(
-      exists
-        ? `🖼️ Screenshot saved: ${screenshotPath}`
-        : `⚠️ Screenshot failed: ${screenshotPath}`
-    );
-
-    // === Record metadata ===
     const timeTaken = ((Date.now() - startTime) / 1000).toFixed(2);
     results.push({
       url: currentUrl,
@@ -104,7 +122,9 @@ async function crawlPage(browser, currentUrl, depth = 0) {
       timestamp: new Date().toISOString(),
     });
 
-    // === Extract internal links ===
+    console.log(`✅ Saved PDF: ${pdfPath}`);
+    console.log(`🖼️ Screenshot: ${screenshotPath}`);
+
     const links = await page.$$eval("a", (as) =>
       as.map((a) => a.href).filter((href) => href.startsWith(location.origin))
     );
@@ -133,7 +153,6 @@ async function crawlPage(browser, currentUrl, depth = 0) {
   await crawlPage(browser, config.startUrl);
   await browser.close();
 
-  // === Save summary ===
   const summaryPath = path.join(baseDir, "summary.json");
   await fs.writeJson(summaryPath, results, { spaces: 2 });
 

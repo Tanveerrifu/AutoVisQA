@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "page": "home.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "..\\results\\visual_diffs\\diff_home.png"
+  },
+  {
+    "page": "profile.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "..\\results\\visual_diffs\\diff_profile.png"
+  }
+]
