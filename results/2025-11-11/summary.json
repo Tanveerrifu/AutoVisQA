@@ -1,0 +1,130 @@
+[
+  {
+    "url": "https://phitron.io",
+    "depth": 0,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\home.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\home.png",
+    "timeTaken": "38.86",
+    "timestamp": "2025-11-11T10:56:09.085Z"
+  },
+  {
+    "url": "https://phitron.io/",
+    "depth": 1,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\home.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\home.png",
+    "timeTaken": "34.85",
+    "timestamp": "2025-11-11T10:56:44.142Z"
+  },
+  {
+    "url": "https://phitron.io/ai-ml-course",
+    "depth": 2,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\ai-ml-course.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\ai-ml-course.png",
+    "timeTaken": "35.63",
+    "timestamp": "2025-11-11T10:57:19.926Z"
+  },
+  {
+    "url": "https://phitron.io/success-story",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\success-story.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\success-story.png",
+    "timeTaken": "32.75",
+    "timestamp": "2025-11-11T10:57:52.948Z"
+  },
+  {
+    "url": "https://phitron.io/about-us",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\about-us.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\about-us.png",
+    "timeTaken": "32.70",
+    "timestamp": "2025-11-11T10:58:25.867Z"
+  },
+  {
+    "url": "https://phitron.io/problem-solvers-club",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\problem-solvers-club.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\problem-solvers-club.png",
+    "timeTaken": "34.05",
+    "timestamp": "2025-11-11T10:59:00.107Z"
+  },
+  {
+    "url": "https://phitron.io/bootcamps",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\bootcamps.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\bootcamps.png",
+    "timeTaken": "31.49",
+    "timestamp": "2025-11-11T10:59:31.807Z"
+  },
+  {
+    "url": "https://phitron.io/login",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\login.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\login.png",
+    "timeTaken": "31.87",
+    "timestamp": "2025-11-11T11:00:03.856Z"
+  },
+  {
+    "url": "https://phitron.io/register",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\register.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\register.png",
+    "timeTaken": "31.26",
+    "timestamp": "2025-11-11T11:00:35.333Z"
+  },
+  {
+    "url": "https://phitron.io/course-details/ai-ml-batch1",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\course-details_ai-ml-batch1.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\course-details_ai-ml-batch1.png",
+    "timeTaken": "32.09",
+    "timestamp": "2025-11-11T11:01:07.599Z"
+  },
+  {
+    "url": "https://phitron.io/refund-policy",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\refund-policy.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\refund-policy.png",
+    "timeTaken": "31.87",
+    "timestamp": "2025-11-11T11:01:39.782Z"
+  },
+  {
+    "url": "https://phitron.io/terms-of-service",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\terms-of-service.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\terms-of-service.png",
+    "timeTaken": "31.02",
+    "timestamp": "2025-11-11T11:02:11.153Z"
+  },
+  {
+    "url": "https://phitron.io/privacy-policy",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\privacy-policy.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\privacy-policy.png",
+    "timeTaken": "30.98",
+    "timestamp": "2025-11-11T11:02:42.276Z"
+  },
+  {
+    "url": "https://phitron.io/app-privacy-policy",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\app-privacy-policy.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\app-privacy-policy.png",
+    "timeTaken": "30.88",
+    "timestamp": "2025-11-11T11:03:13.292Z"
+  },
+  {
+    "url": "https://phitron.io/course-details/batch8",
+    "depth": 2,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\course-details_batch8.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\course-details_batch8.png",
+    "timeTaken": "31.52",
+    "timestamp": "2025-11-11T11:03:45.034Z"
+  },
+  {
+    "url": "https://phitron.io/success-story?tab=problem-solvers",
+    "depth": 2,
+    "pdfPath": "E:\\website-crawler-research\\results\\2025-11-11\\pdfs\\success-story.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\2025-11-11\\screenshots\\success-story.png",
+    "timeTaken": "32.80",
+    "timestamp": "2025-11-11T11:04:18.402Z"
+  }
+]

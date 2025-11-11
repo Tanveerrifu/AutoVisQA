@@ -1,0 +1,13 @@
+{
+  "date": "2025-11-10",
+  "total_pages": 16,
+  "avg_time": 31.348,
+  "median_time": 30.965,
+  "std_time": 0.815,
+  "min_time": 30.63,
+  "max_time": 33.64,
+  "p90": 32.15,
+  "p95": 32.755,
+  "errors": 0,
+  "generated_at": "2025-11-11T06:19:11.338616Z"
+}

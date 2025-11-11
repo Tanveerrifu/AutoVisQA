@@ -1,0 +1,7 @@
+{
+  "startUrl": "https://phitron.io",
+  "waitTime": 30000,
+  "maxDepth": 3,
+  "outputDir": "../results",
+  "headless": true
+}
