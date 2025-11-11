@@ -1,9 +1,10 @@
 """
-📊 QA Research Report Generator v5.6 — Interactive Trendline + PDF fallback
-------------------------------------------------------------
-- Interactive Plotly trendline in HTML
-- Static PNG embedded as <noscript> fallback for PDF (WeasyPrint)
-- Keeps visual & performance charts, top-5 table, and full PDF export
+📊 QA Research Report Generator v5.7 — Interactive + PDF Trendline Fixed
+-----------------------------------------------------------------------
+✅ Interactive Plotly trendline in HTML
+✅ Always-visible static PNG fallback in PDF
+✅ Full executive summary, visual diff, performance charts, top 5 slow pages
+✅ Auto HTML + PDF export (WeasyPrint)
 """
 
 import os
@@ -54,7 +55,7 @@ report_pdf = os.path.join(RESULTS, "research_report.pdf")
 with open(crawl_summary_path, "r", encoding="utf-8") as f:
     crawl_data = json.load(f)
 
-# === Load Performance Data (from CSV or summary.json fallback) ===
+# === Load Performance Data ===
 metrics_data = []
 if os.path.exists(crawl_metrics_path):
     try:
@@ -68,7 +69,7 @@ else:
         if "url" in page and "timeTaken" in page:
             metrics_data.append([page["url"], page["timeTaken"]])
 
-# === Compute Basic Stats ===
+# === Compute Key Stats ===
 times = []
 for _, t in metrics_data:
     try:
@@ -79,7 +80,6 @@ for _, t in metrics_data:
 avg_time = round(statistics.mean(times), 2) if times else 0
 median_time = round(statistics.median(times), 2) if times else 0
 max_time = round(max(times), 2) if times else 0
-
 total_pages = len([p for p in crawl_data if "error" not in p])
 errors = len([p for p in crawl_data if "error" in p])
 
@@ -97,12 +97,11 @@ if visual_diff_data:
 else:
     avg_change = 0.0
 
-# === Generate Performance Chart (static PNG) ===
+# === Generate Performance Chart ===
 if metrics_data:
     df_chart = pd.DataFrame(metrics_data, columns=["url", "timeTaken"])
     df_chart["timeTaken"] = pd.to_numeric(df_chart["timeTaken"], errors="coerce")
     df_chart = df_chart.dropna(subset=["timeTaken"]).sort_values("timeTaken", ascending=False).head(10)
-
     plt.figure(figsize=(10, 6))
     plt.barh(df_chart["url"], df_chart["timeTaken"], color="#1a73e8")
     plt.xlabel("Load Time (seconds)")
@@ -112,7 +111,7 @@ if metrics_data:
     plt.savefig(performance_chart_path)
     plt.close()
 
-# === Generate Trend Data Across Runs and static PNG trend chart ===
+# === Generate Trend Data (for interactive + static fallback) ===
 trend_data = []
 for f in folders_sorted:
     folder_path = os.path.join(RESULTS, f)
@@ -143,7 +142,7 @@ for f in folders_sorted:
     if run_times:
         trend_data.append((f, round(statistics.mean(run_times), 2)))
 
-# static PNG trend chart for PDF fallback
+# === Create static PNG for PDF fallback ===
 if len(trend_data) >= 1:
     labels_static, averages_static = zip(*trend_data)
     plt.figure(figsize=(10, 5))
@@ -156,9 +155,9 @@ if len(trend_data) >= 1:
     plt.savefig(trend_chart_path)
     plt.close()
 
-# === Interactive Plotly trend HTML fragment + noscript fallback with static PNG ===
+# === Interactive Plotly chart + always-on PNG fallback ===
 interactive_trend_html_fragment = "<p>⚠️ Not enough crawl data for trendline.</p>"
-noscript_trend_img = ""
+trend_png_html = ""
 if len(trend_data) >= 2:
     labels, averages = zip(*trend_data)
     fig = go.Figure()
@@ -174,31 +173,28 @@ if len(trend_data) >= 2:
         title="Interactive Load Time Trendline",
         xaxis_title="Crawl Run (Date & Time)",
         yaxis_title="Average Load Time (s)",
-        template="plotly_white",
-        margin=dict(l=40, r=40, t=60, b=80)
+        template="plotly_white"
     )
-
-    # interactive fragment (no <html> wrapper)
     interactive_trend_html_fragment = fig.to_html(full_html=False, include_plotlyjs="cdn")
 
-# Prepare noscript fallback: static PNG embedded as base64 (used by PDF)
+# embed static PNG directly (always visible in PDF)
 if os.path.exists(trend_chart_path):
     with open(trend_chart_path, "rb") as imgf:
         encoded_trend = base64.b64encode(imgf.read()).decode("utf-8")
-        noscript_trend_img = f"<noscript><img src='data:image/png;base64,{encoded_trend}' style='max-width:100%;height:auto;border-radius:6px;'/></noscript>"
+        trend_png_html = f"<div><img src='data:image/png;base64,{encoded_trend}' style='max-width:100%;height:auto;border-radius:6px;'/></div>"
 
-# === Helper to embed static images (visual + performance) as base64 for PDF embedding ===
+# === Helper to embed static charts ===
 def embed_chart(path):
     if os.path.exists(path):
         with open(path, "rb") as img_file:
             encoded = base64.b64encode(img_file.read()).decode("utf-8")
-            return f"<img src='data:image/png;base64,{encoded}' class='chart' style='max-width:100%;height:auto;border-radius:6px;display:block;margin:auto;'/>"
+            return f"<img src='data:image/png;base64,{encoded}' class='chart' style='max-width:100%;height:auto;border-radius:10px;display:block;margin:auto;'/>"
     return "<p>⚠️ Chart not available.</p>"
 
 visual_chart_html = embed_chart(visual_chart_path)
 performance_chart_html = embed_chart(performance_chart_path)
 
-# === Top 5 Slowest Pages Table ===
+# === Top 5 Slowest Pages ===
 slowest_html = "<p>⚠️ No performance data available.</p>"
 if metrics_data:
     top5 = sorted(metrics_data, key=lambda x: float(x[1]) if str(x[1]).replace('.', '', 1).lstrip('-').isdigit() else 0, reverse=True)[:5]
@@ -206,14 +202,13 @@ if metrics_data:
     for i, (url, t) in enumerate(top5, 1):
         try:
             t_val = float(t)
-            # highlight: red for slowest, green if faster than average, orange otherwise
             color = "#f44336" if i == 1 else "#4CAF50" if t_val < avg_time else "#ff9800"
-            slowest_html += f"<tr style='color:{color};'><td style='padding:8px;text-align:center'>{i}</td><td style='padding:8px;text-align:left'>{url}</td><td style='padding:8px;text-align:center'>{round(t_val,2)}</td></tr>"
+            slowest_html += f"<tr style='color:{color}'><td>{i}</td><td>{url}</td><td>{round(t_val,2)}</td></tr>"
         except:
-            slowest_html += f"<tr><td style='padding:8px;text-align:center'>{i}</td><td style='padding:8px;text-align:left'>{url}</td><td style='padding:8px;text-align:center'>{t}</td></tr>"
+            slowest_html += f"<tr><td>{i}</td><td>{url}</td><td>{t}</td></tr>"
     slowest_html += "</table>"
 
-# === Build full HTML (interactive + PDF-friendly) ===
+# === Build HTML ===
 timestamp = datetime.now().strftime("%d %B %Y, %I:%M %p")
 
 html = f"""
@@ -222,7 +217,6 @@ html = f"""
 <head>
 <meta charset="utf-8">
 <title>QA Research Report — {latest_folder}</title>
-<!-- Plotly CDN for interactive charts -->
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <style>
 body {{ font-family: 'Segoe UI', Arial, sans-serif; margin: 40px; background: #ffffff; color: #333; }}
@@ -230,11 +224,10 @@ h1, h2 {{ color: #1a73e8; text-align: center; }}
 .card {{ background: #fafafa; padding: 20px; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); margin-bottom: 30px; }}
 .chart-container {{ display:flex; justify-content:center; align-items:center; margin:30px auto; width:100%; max-width:900px; padding:15px; background:#f9f9f9; border-radius:12px; }}
 img.chart {{ max-width:100%; height:auto; border-radius:10px; display:block; }}
+footer {{ text-align:center; margin-top:40px; font-size:0.9em; color:#666; }}
 table {{ width:100%; border-collapse:collapse; margin-top:10px; }}
 th, td {{ border:1px solid #ddd; padding:8px; text-align:center; }}
 th {{ background:#1a73e8; color:white; }}
-.noscript-note {{ text-align:center; color:#777; font-size:0.95em; margin-top:6px; }}
-footer {{ text-align:center; margin-top:40px; font-size:0.9em; color:#666; }}
 </style>
 </head>
 <body>
@@ -262,12 +255,10 @@ footer {{ text-align:center; margin-top:40px; font-size:0.9em; color:#666; }}
 <div class="chart-container card">{performance_chart_html}</div>
 
 <h2>📈 Performance Trendline</h2>
-<p style="text-align:center;color:#555;">Interactive trend (hover to see values). If your browser has JS disabled, a static image will appear in the PDF.</p>
+<p style="text-align:center;color:#555;">Interactive version (HTML) + static version (PDF) below</p>
 <div class="chart-container card">
-  <!-- Interactive Plotly fragment (if available) -->
   {interactive_trend_html_fragment}
-  <!-- noscript static PNG fallback (WeasyPrint will capture this) -->
-  {noscript_trend_img}
+  {trend_png_html}
 </div>
 
 <h2>🏁 Top 5 Slowest Pages</h2>
@@ -278,16 +269,14 @@ footer {{ text-align:center; margin-top:40px; font-size:0.9em; color:#666; }}
   <p><b>Run Folder:</b> {latest_folder} — <b>Generated on:</b> {timestamp}</p>
 </footer>
 
-</body>
-</html>
+</body></html>
 """
 
-# === Save HTML ===
+# === Save HTML and PDF ===
 with open(report_html, "w", encoding="utf-8") as f:
     f.write(html)
 print(f"✅ Interactive HTML report generated → {report_html}")
 
-# === Export to PDF (WeasyPrint) ===
 try:
     HTML(report_html).write_pdf(report_pdf)
     print(f"📄 PDF exported successfully → {report_pdf}")
