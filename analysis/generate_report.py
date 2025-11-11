@@ -1,22 +1,22 @@
 """
-📄 QA Research Report Generator v4.3 — Research Analytics Edition
+📄 QA Research Report Generator v4.5 — Enhanced Smart Performance Edition
 ------------------------------------------------------------
 ✅ Includes:
 - Cover Page (title, author, institution, date)
 - Summary Metrics Table
 - Visual Diff Chart (UI Stability)
-- Performance Chart (Page Load Times)
-- Responsive, centered chart containers
-- Auto PDF export using WeasyPrint (no wkhtmltopdf needed)
+- Performance Load Chart (from CSV or summary)
+- Top 5 Slowest Pages Table (auto-highlight slowest)
+- Robust type handling and styling
 """
 
 import os
 import json
 import statistics
 import base64
-from datetime import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
+from datetime import datetime
 from weasyprint import HTML
 
 # === Paths ===
@@ -24,8 +24,6 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 RESULTS = os.path.join(ROOT, "results")
 VISUAL_DIFFS = os.path.join(RESULTS, "visual_diffs")
 CHARTS = os.path.join(RESULTS, "charts")
-
-# Ensure chart folder exists
 os.makedirs(CHARTS, exist_ok=True)
 
 # === Auto-detect latest crawl folder ===
@@ -55,9 +53,27 @@ report_pdf = os.path.join(RESULTS, "research_report.pdf")
 with open(crawl_summary_path, "r", encoding="utf-8") as f:
     crawl_data = json.load(f)
 
+# === Load Performance Data ===
+metrics_data = []
+if os.path.exists(crawl_metrics_path):
+    df_metrics = pd.read_csv(crawl_metrics_path)
+    if "url" in df_metrics.columns and "timeTaken" in df_metrics.columns:
+        metrics_data = df_metrics[["url", "timeTaken"]].values.tolist()
+else:
+    for page in crawl_data:
+        if "url" in page and "timeTaken" in page:
+            metrics_data.append([page["url"], page["timeTaken"]])
+
+# === Compute Stats ===
 total_pages = len([p for p in crawl_data if "error" not in p])
 errors = len([p for p in crawl_data if "error" in p])
-times = [float(p.get("timeTaken", 0)) for p in crawl_data if "timeTaken" in p]
+
+times = []
+for _, t in metrics_data:
+    try:
+        times.append(float(t))
+    except:
+        pass
 
 avg_time = round(statistics.mean(times), 2) if times else 0
 median_time = round(statistics.median(times), 2) if times else 0
@@ -78,27 +94,44 @@ else:
     avg_change = 0.0
 
 # === Generate Performance Chart ===
-if os.path.exists(crawl_metrics_path):
-    df = pd.read_csv(crawl_metrics_path)
-    if "url" in df.columns and "timeTaken" in df.columns:
-        plt.figure(figsize=(10, 6))
-        plt.barh(df["url"], df["timeTaken"], color="#1a73e8")
-        plt.xlabel("Load Time (seconds)")
-        plt.ylabel("Pages")
-        plt.title("Average Page Load Time per URL")
-        plt.tight_layout()
-        plt.savefig(performance_chart_path)
-        plt.close()
+if metrics_data:
+    df_chart = pd.DataFrame(metrics_data, columns=["url", "timeTaken"])
+    df_chart["timeTaken"] = pd.to_numeric(df_chart["timeTaken"], errors="coerce")
+    df_chart = df_chart.dropna(subset=["timeTaken"]).sort_values("timeTaken", ascending=False).head(10)
+
+    plt.figure(figsize=(10, 6))
+    plt.barh(df_chart["url"], df_chart["timeTaken"], color="#1a73e8")
+    plt.xlabel("Load Time (seconds)")
+    plt.ylabel("Page URL")
+    plt.title("Average Page Load Time (Top 10 URLs)")
+    plt.tight_layout()
+    plt.savefig(performance_chart_path)
+    plt.close()
 
 # === Embed charts as Base64 ===
 def embed_chart(path):
     if os.path.exists(path):
         with open(path, "rb") as img_file:
-            return f"<img src='data:image/png;base64,{base64.b64encode(img_file.read()).decode('utf-8')}' class='chart'/>"
+            encoded = base64.b64encode(img_file.read()).decode("utf-8")
+            return f"<img src='data:image/png;base64,{encoded}' class='chart'/>"
     return "<p>⚠️ Chart not available.</p>"
 
 visual_chart_html = embed_chart(visual_chart_path)
 performance_chart_html = embed_chart(performance_chart_path)
+
+# === Prepare Top 5 Slowest Pages Table ===
+slowest_html = "<p>⚠️ No performance data available.</p>"
+if metrics_data:
+    top5 = sorted(metrics_data, key=lambda x: float(x[1]) if str(x[1]).replace('.', '', 1).isdigit() else 0, reverse=True)[:5]
+    slowest_html = "<table><tr><th>Rank</th><th>Page URL</th><th>Load Time (s)</th></tr>"
+    for i, (url, t) in enumerate(top5, 1):
+        try:
+            t_val = float(t)
+            color = "#f44336" if i == 1 else "#4CAF50" if t_val < avg_time else "#ff9800"
+            slowest_html += f"<tr style='color:{color}'><td>{i}</td><td>{url}</td><td>{round(t_val,2)}</td></tr>"
+        except:
+            slowest_html += f"<tr><td>{i}</td><td>{url}</td><td>{t}</td></tr>"
+    slowest_html += "</table>"
 
 # === Build HTML ===
 timestamp = datetime.now().strftime("%d %B %Y, %I:%M %p")
@@ -221,6 +254,11 @@ footer {{
 <p style="text-align:center; color:#555;">Average page load time across all crawled URLs.</p>
 <div class="chart-container">
   {performance_chart_html}
+</div>
+
+<h2>🏁 Top 5 Slowest Pages</h2>
+<div class="card">
+  {slowest_html}
 </div>
 
 <footer>
