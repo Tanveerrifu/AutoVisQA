@@ -1,0 +1,22 @@
+{
+  "thresholds": {
+    "avg_load_change_percent": 15,
+    "page_load_increase_percent": 25,
+    "visual_diff_percent": 1.5
+  },
+  "notifications": {
+    "enable_slack": false,
+    "enable_email": true,
+    "email": {
+      "smtp_server": "smtp.gmail.com",
+      "smtp_port": 587,
+      "username": "tanvir.cse.cu@gmail.com",
+      "password": "eicyeljbqgfthjhh",
+      "to": ["tanvirrifat670@gmail.com"]
+    }
+  },
+  "report": {
+    "inject_into_html": true,
+    "regenerate_pdf": true
+  }
+}

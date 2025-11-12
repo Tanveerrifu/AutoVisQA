@@ -1,128 +1,106 @@
-"""
-📊 Web Recorder & Performance Analyzer v3.0
---------------------------------------------
-Reads the latest crawl summary.json, extracts performance metrics,
-saves CSV + JSON summaries, and generates graphs for research.
-"""
-
-import json
 import os
+import glob
+import json
 import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 
-# === CONFIG ===
-ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
-RESULTS_DIR = os.path.join(ROOT, "results")
+# === CONFIGURATION ===
+RESULTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "results"))
 
-# Detect the latest crawl folder (ignore 'visual_diffs')
-crawl_folders = [
-    f for f in os.listdir(RESULTS_DIR)
-    if os.path.isdir(os.path.join(RESULTS_DIR, f)) and f != "visual_diffs"
-]
-if not crawl_folders:
-    raise FileNotFoundError("❌ No crawl folders found inside /results.")
+# === STEP 1: Find latest crawl folder ===
+folders = [f for f in glob.glob(os.path.join(RESULTS_DIR, "*")) if os.path.isdir(f)]
 
-DATE_FOLDER = max(crawl_folders)
-SUMMARY_PATH = os.path.join(RESULTS_DIR, DATE_FOLDER, "summary.json")
+if not folders:
+    print("⚠️ No crawl folders found inside:", RESULTS_DIR)
+    exit(1)
+
+latest_folder = max(folders, key=os.path.getmtime)
+SUMMARY_PATH = os.path.join(latest_folder, "summary.json")
 
 print(f"📂 Reading summary from: {SUMMARY_PATH}")
 
-# === LOAD DATA ===
-with open(SUMMARY_PATH, "r", encoding="utf-8") as f:
-    data = json.load(f)
+if not os.path.exists(SUMMARY_PATH):
+    print(f"❌ No summary.json found in {latest_folder}")
+    print("👉 Run the crawler again to generate summary.json")
+    exit(1)
 
+# === STEP 2: Load summary data ===
+try:
+    with open(SUMMARY_PATH, "r", encoding="utf-8") as f:
+        data = json.load(f)
+except json.JSONDecodeError:
+    print("❌ summary.json is not a valid JSON file.")
+    exit(1)
+
+if not isinstance(data, list) or len(data) == 0:
+    print("⚠️ summary.json is empty or invalid format.")
+    exit(1)
+
+# === STEP 3: Create DataFrame ===
 df = pd.DataFrame(data)
-df = df[df['timeTaken'].notna()].copy()
-df['timeTaken'] = df['timeTaken'].astype(float)
 
-# === METRICS ===
+if "url" not in df.columns or "timeTaken" not in df.columns:
+    print("❌ Required fields missing (url, timeTaken).")
+    exit(1)
+
+df["timeTaken"] = pd.to_numeric(df["timeTaken"], errors="coerce")
+
+# === STEP 4: Compute basic stats ===
 total_pages = len(df)
-avg_time = df['timeTaken'].mean()
-median_time = df['timeTaken'].median()
-std_time = df['timeTaken'].std()
-min_time = df['timeTaken'].min()
-max_time = df['timeTaken'].max()
-p90 = df['timeTaken'].quantile(0.9)
-p95 = df['timeTaken'].quantile(0.95)
-errors = [d for d in data if 'error' in d]
+avg_load_time = df["timeTaken"].mean()
+max_load = df["timeTaken"].max()
+min_load = df["timeTaken"].min()
 
 print("\n📊 Research Summary")
-print(f"📅 Date: {DATE_FOLDER}")
-print(f"📄 Total Pages Crawled: {total_pages}")
-print(f"⚡ Average Load Time: {avg_time:.2f} s")
-print(f"🔸 Median Load Time: {median_time:.2f} s")
-print(f"📈 Std Deviation: {std_time:.2f} s")
-print(f"🚀 Min / Max: {min_time:.2f} / {max_time:.2f} s")
-print(f"🎯 P90 / P95: {p90:.2f} / {p95:.2f} s")
-print(f"❌ Errors: {len(errors)}")
+print(f"🧾 Total Pages Crawled: {total_pages}")
+print(f"⚡ Average Load Time: {avg_load_time:.2f} sec")
+print(f"🐢 Slowest Page: {max_load:.2f} sec")
+print(f"🚀 Fastest Page: {min_load:.2f} sec")
 
-# === SAVE CSV & SUMMARY ===
-csv_out = os.path.join(RESULTS_DIR, DATE_FOLDER, "crawl_metrics.csv")
-df.to_csv(csv_out, index=False)
-print(f"📁 Metrics saved → {csv_out}")
+# === STEP 5: Save CSV ===
+csv_path = os.path.join(latest_folder, "crawl_metrics.csv")
+df.to_csv(csv_path, index=False)
+print(f"💾 Metrics saved → {csv_path}")
 
-summary = {
-    "date": DATE_FOLDER,
+# === STEP 6: Generate chart ===
+chart_dir = os.path.join(RESULTS_DIR, "charts")
+os.makedirs(chart_dir, exist_ok=True)
+
+chart_path = os.path.join(chart_dir, f"load_time_{datetime.now().strftime('%d-%b-%Y(%I_%M%p)')}.png")
+
+plt.figure(figsize=(10, 6))
+plt.barh(df["url"], df["timeTaken"], color="royalblue")
+plt.xlabel("Load Time (seconds)")
+plt.ylabel("Page URL")
+plt.title("Average Page Load Time (Top URLs)")
+plt.tight_layout()
+plt.savefig(chart_path)
+plt.close()
+
+print(f"📈 Chart saved → {chart_path}")
+
+# === STEP 7: Export top slow pages ===
+slowest_pages = df.nlargest(5, "timeTaken")[["url", "timeTaken"]]
+slowest_path = os.path.join(latest_folder, "top_slowest_pages.csv")
+slowest_pages.to_csv(slowest_path, index=False)
+
+print(f"🐢 Top 5 slow pages saved → {slowest_path}")
+
+# === STEP 8: Final summary ===
+summary_data = {
     "total_pages": int(total_pages),
-    "avg_time": round(avg_time, 3),
-    "median_time": round(median_time, 3),
-    "std_time": round(std_time, 3),
-    "min_time": round(min_time, 3),
-    "max_time": round(max_time, 3),
-    "p90": round(p90, 3),
-    "p95": round(p95, 3),
-    "errors": len(errors),
-    "generated_at": datetime.utcnow().isoformat() + "Z"
+    "average_load_time": round(float(avg_load_time), 2),
+    "slowest_page": round(float(max_load), 2),
+    "fastest_page": round(float(min_load), 2),
+    "chart_path": chart_path,
+    "csv_path": csv_path,
+    "slowest_pages_path": slowest_path
 }
-json_out = os.path.join(RESULTS_DIR, DATE_FOLDER, "crawl_summary.json")
-with open(json_out, "w", encoding="utf-8") as f:
-    json.dump(summary, f, indent=2)
-print(f"🧾 Summary saved → {json_out}")
 
-# === CHARTS ===
-charts_dir = os.path.join(RESULTS_DIR, "charts")
-os.makedirs(charts_dir, exist_ok=True)
+summary_json_path = os.path.join(latest_folder, "crawl_summary.json")
+with open(summary_json_path, "w", encoding="utf-8") as f:
+    json.dump(summary_data, f, indent=4)
 
-# Bar Chart — Load Times
-plt.figure(figsize=(12, 5))
-plt.bar(range(len(df)), df["timeTaken"])
-plt.title(f"Page Load Time Distribution — {DATE_FOLDER}")
-plt.xlabel("Page Index")
-plt.ylabel("Load Time (s)")
-plt.tight_layout()
-bar_path = os.path.join(charts_dir, f"load_time_{DATE_FOLDER}.png")
-plt.savefig(bar_path)
-plt.close()
-print(f"📈 Load time chart saved → {bar_path}")
-
-# Boxplot — Spread of Load Times
-plt.figure(figsize=(7, 4))
-plt.boxplot(df["timeTaken"], vert=False)
-plt.title(f"Load Time Boxplot — {DATE_FOLDER}")
-plt.xlabel("Load Time (s)")
-plt.tight_layout()
-box_path = os.path.join(charts_dir, f"boxplot_{DATE_FOLDER}.png")
-plt.savefig(box_path)
-plt.close()
-print(f"📊 Boxplot saved → {box_path}")
-
-# Histogram — Load Time Frequency
-plt.figure(figsize=(8, 4))
-plt.hist(df["timeTaken"], bins=10)
-plt.title(f"Load Time Histogram — {DATE_FOLDER}")
-plt.xlabel("Load Time (s)")
-plt.ylabel("Count")
-plt.tight_layout()
-hist_path = os.path.join(charts_dir, f"hist_{DATE_FOLDER}.png")
-plt.savefig(hist_path)
-plt.close()
-print(f"📉 Histogram saved → {hist_path}")
-
-# Slowest pages
-slow_pages = df.sort_values(by="timeTaken", ascending=False).head(10)
-top_path = os.path.join(RESULTS_DIR, DATE_FOLDER, "top_slowest_pages.csv")
-slow_pages.to_csv(top_path, index=False)
-print(f"🐢 Top slow pages saved → {top_path}")
-
-print("\n✅ Analysis complete.")
+print(f"\n✅ Crawl summary JSON saved → {summary_json_path}")
+print("\n🎯 Web Recorder completed successfully!\n")

@@ -1,8 +1,21 @@
 {
   "type": "module",
   "dependencies": {
+    "canvas": "^3.2.0",
     "fs-extra": "^11.3.2",
+    "jimp": "^1.6.0",
     "pixelmatch": "^5.3.0",
-    "pngjs": "^7.0.0"
-  }
+    "pngjs": "^7.0.0",
+    "ssim.js": "^3.5.0"
+  },
+  "name": "analysis",
+  "version": "1.0.0",
+  "main": "visual_diff.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
