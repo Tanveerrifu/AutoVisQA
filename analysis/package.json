@@ -6,7 +6,8 @@
     "jimp": "^1.6.0",
     "pixelmatch": "^5.3.0",
     "pngjs": "^7.0.0",
-    "ssim.js": "^3.5.0"
+    "ssim.js": "^3.5.0",
+    "tesseract.js": "^6.0.1"
   },
   "name": "analysis",
   "version": "1.0.0",
