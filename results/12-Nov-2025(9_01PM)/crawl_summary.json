@@ -1,9 +1,0 @@
-{
-    "total_pages": 6,
-    "average_load_time": 31.55,
-    "slowest_page": 32.98,
-    "fastest_page": 30.71,
-    "chart_path": "E:\\website-crawler-research\\results\\charts\\load_time_12-Nov-2025(09_05PM).png",
-    "csv_path": "E:\\website-crawler-research\\results\\12-Nov-2025(9_01PM)\\crawl_metrics.csv",
-    "slowest_pages_path": "E:\\website-crawler-research\\results\\12-Nov-2025(9_01PM)\\top_slowest_pages.csv"
-}

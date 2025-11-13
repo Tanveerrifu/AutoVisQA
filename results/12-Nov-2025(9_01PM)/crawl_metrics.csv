@@ -1,7 +1,0 @@
-url,depth,pdfPath,screenshotPath,timeTaken,timestamp
-https://katalon-demo-cura.herokuapp.com/,0,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\pdfs\home.pdf,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\screenshots\home.png,32.62,2025-11-12T15:02:03.919Z
-https://katalon-demo-cura.herokuapp.com/#,1,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\pdfs\home.pdf,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\screenshots\home.png,30.71,2025-11-12T15:02:34.758Z
-https://katalon-demo-cura.herokuapp.com/profile.php#login,2,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\pdfs\profile.pdf,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\screenshots\profile.png,31.13,2025-11-12T15:03:05.969Z
-https://katalon-demo-cura.herokuapp.com/profile.php#,3,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\pdfs\profile.pdf,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\screenshots\profile.png,31.03,2025-11-12T15:03:37.110Z
-https://katalon-demo-cura.herokuapp.com/profile.php#top,3,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\pdfs\profile.pdf,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\screenshots\profile.png,32.98,2025-11-12T15:04:10.235Z
-https://katalon-demo-cura.herokuapp.com/#top,2,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\pdfs\home.pdf,E:\website-crawler-research\results\12-Nov-2025(9_01PM)\screenshots\home.png,30.86,2025-11-12T15:04:41.375Z

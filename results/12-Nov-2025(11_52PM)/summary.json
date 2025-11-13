@@ -1,0 +1,162 @@
+[
+  {
+    "url": "https://www.weather.com/",
+    "depth": 0,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\home.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\home.png",
+    "timeTaken": "34.25",
+    "timestamp": "2025-11-12T17:52:57.448Z"
+  },
+  {
+    "url": "https://weather.com/",
+    "depth": 1,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\home.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\home.png",
+    "timeTaken": "32.48",
+    "timestamp": "2025-11-12T17:53:30.236Z"
+  },
+  {
+    "url": "https://weather.com/weather/today/l/6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87",
+    "depth": 2,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\weather_today_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_today_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "timeTaken": "97.15",
+    "timestamp": "2025-11-12T17:55:07.753Z"
+  },
+  {
+    "url": "https://weather.com/weather/hourbyhour/l/6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\weather_hourbyhour_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_hourbyhour_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "timeTaken": "38.84",
+    "timestamp": "2025-11-12T17:55:46.866Z"
+  },
+  {
+    "url": "https://weather.com/weather/tenday/l/6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\weather_tenday_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_tenday_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "timeTaken": "53.25",
+    "timestamp": "2025-11-12T17:56:40.602Z"
+  },
+  {
+    "url": "https://weather.com/weather/monthly/l/6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\weather_monthly_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_monthly_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "timeTaken": "37.51",
+    "timestamp": "2025-11-12T17:57:18.214Z"
+  },
+  {
+    "url": "https://weather.com/weather/radar/interactive/l/6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\weather_radar_interactive_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_radar_interactive_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "timeTaken": "32.58",
+    "timestamp": "2025-11-12T17:57:51.185Z"
+  },
+  {
+    "url": "https://weather.com/forecast/regional/video/weather-whiplash-record-cold-warmth-this-week",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\forecast_regional_video_weather-whiplash-record-cold-warmth-this-week.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\forecast_regional_video_weather-whiplash-record-cold-warmth-this-week.png",
+    "timeTaken": "34.50",
+    "timestamp": "2025-11-12T17:58:26.030Z"
+  },
+  {
+    "url": "https://weather.com/storms/hurricane-central",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\storms_hurricane-central.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\storms_hurricane-central.png",
+    "timeTaken": "34.38",
+    "timestamp": "2025-11-12T17:59:00.921Z"
+  },
+  {
+    "url": "https://weather.com/storms/tornado-central",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\storms_tornado-central.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\storms_tornado-central.png",
+    "timeTaken": "36.15",
+    "timestamp": "2025-11-12T17:59:37.399Z"
+  },
+  {
+    "url": "https://weather.com/safety/index",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\safety_index.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\safety_index.png",
+    "timeTaken": "34.80",
+    "timestamp": "2025-11-12T18:00:12.550Z"
+  },
+  {
+    "url": "https://weather.com/forecast/allergy/l/6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\forecast_allergy_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\forecast_allergy_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "timeTaken": "34.39",
+    "timestamp": "2025-11-12T18:00:47.273Z"
+  },
+  {
+    "url": "https://weather.com/forecast/air-quality/l/6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\forecast_air-quality_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\forecast_air-quality_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "timeTaken": "33.83",
+    "timestamp": "2025-11-12T18:01:21.413Z"
+  },
+  {
+    "url": "https://weather.com/forecast/cold-flu/l/6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\forecast_cold-flu_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\forecast_cold-flu_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "timeTaken": "35.96",
+    "timestamp": "2025-11-12T18:01:57.903Z"
+  },
+  {
+    "url": "https://weather.com/health/skin-health",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\health_skin-health.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\health_skin-health.png",
+    "timeTaken": "35.07",
+    "timestamp": "2025-11-12T18:02:33.400Z"
+  },
+  {
+    "url": "https://weather.com/home-garden",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\home-garden.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\home-garden.png",
+    "timeTaken": "34.98",
+    "timestamp": "2025-11-12T18:03:08.834Z"
+  },
+  {
+    "url": "https://weather.com/pets",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\pets.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\pets.png",
+    "timeTaken": "34.87",
+    "timestamp": "2025-11-12T18:03:44.138Z"
+  },
+  {
+    "url": "https://weather.com/home-garden/recipes",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\home-garden_recipes.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\home-garden_recipes.png",
+    "timeTaken": "36.03",
+    "timestamp": "2025-11-12T18:04:20.579Z"
+  },
+  {
+    "url": "https://weather.com/science/space",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\science_space.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\science_space.png",
+    "timeTaken": "34.91",
+    "timestamp": "2025-11-12T18:04:55.974Z"
+  },
+  {
+    "url": "https://weather.com/travel",
+    "depth": 3,
+    "pdfPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\pdfs\\travel.pdf",
+    "screenshotPath": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\travel.png",
+    "timeTaken": "35.64",
+    "timestamp": "2025-11-12T18:05:32.082Z"
+  }
+]

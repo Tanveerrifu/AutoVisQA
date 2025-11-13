@@ -1,5 +1,5 @@
 {
-  "startUrl": "https://katalon-demo-cura.herokuapp.com/",
+  "startUrl": "https://www.weather.com/",
   "waitTime": 30000,
   "maxDepth": 3,
   "outputDir": "../results",

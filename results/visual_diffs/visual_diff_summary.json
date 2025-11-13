@@ -1,14 +1,110 @@
 [
   {
-    "page": "home.png",
-    "diffPixels": 0,
+    "page": "forecast_air-quality_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "diffPixels": 178738,
+    "diffPercent": "6.458",
+    "diffPath": "..\\results\\visual_diffs\\diff_forecast_air-quality_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png"
+  },
+  {
+    "page": "forecast_allergy_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "diffPixels": 4509,
+    "diffPercent": "0.127",
+    "diffPath": "..\\results\\visual_diffs\\diff_forecast_allergy_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png"
+  },
+  {
+    "page": "forecast_cold-flu_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "diffPixels": 1,
     "diffPercent": "0.000",
+    "diffPath": "..\\results\\visual_diffs\\diff_forecast_cold-flu_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png"
+  },
+  {
+    "page": "health_skin-health.png",
+    "diffPixels": 376550,
+    "diffPercent": "5.720",
+    "diffPath": "..\\results\\visual_diffs\\diff_health_skin-health.png"
+  },
+  {
+    "page": "home-garden.png",
+    "diffPixels": 244491,
+    "diffPercent": "5.240",
+    "diffPath": "..\\results\\visual_diffs\\diff_home-garden.png"
+  },
+  {
+    "page": "home-garden_recipes.png",
+    "diffPixels": 617277,
+    "diffPercent": "9.304",
+    "diffPath": "..\\results\\visual_diffs\\diff_home-garden_recipes.png"
+  },
+  {
+    "page": "home.png",
+    "diffPixels": 1535782,
+    "diffPercent": "26.043",
     "diffPath": "..\\results\\visual_diffs\\diff_home.png"
   },
   {
-    "page": "profile.png",
-    "diffPixels": 0,
-    "diffPercent": "0.000",
-    "diffPath": "..\\results\\visual_diffs\\diff_profile.png"
+    "page": "pets.png",
+    "diffPixels": 645514,
+    "diffPercent": "9.662",
+    "diffPath": "..\\results\\visual_diffs\\diff_pets.png"
+  },
+  {
+    "page": "safety_index.png",
+    "diffPixels": 271180,
+    "diffPercent": "7.897",
+    "diffPath": "..\\results\\visual_diffs\\diff_safety_index.png"
+  },
+  {
+    "page": "science_space.png",
+    "diffPixels": 546157,
+    "diffPercent": "8.232",
+    "diffPath": "..\\results\\visual_diffs\\diff_science_space.png"
+  },
+  {
+    "page": "storms_hurricane-central.png",
+    "diffPixels": 588197,
+    "diffPercent": "17.020",
+    "diffPath": "..\\results\\visual_diffs\\diff_storms_hurricane-central.png"
+  },
+  {
+    "page": "storms_tornado-central.png",
+    "diffPixels": 356486,
+    "diffPercent": "13.154",
+    "diffPath": "..\\results\\visual_diffs\\diff_storms_tornado-central.png"
+  },
+  {
+    "page": "travel.png",
+    "diffPixels": 571696,
+    "diffPercent": "12.324",
+    "diffPath": "..\\results\\visual_diffs\\diff_travel.png"
+  },
+  {
+    "page": "weather_hourbyhour_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "diffPixels": 1140095,
+    "diffPercent": "12.390",
+    "diffPath": "..\\results\\visual_diffs\\diff_weather_hourbyhour_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png"
+  },
+  {
+    "page": "weather_monthly_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "diffPixels": 291248,
+    "diffPercent": "5.081",
+    "diffPath": "..\\results\\visual_diffs\\diff_weather_monthly_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png"
+  },
+  {
+    "page": "weather_radar_interactive_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "diffPixels": 124109,
+    "diffPercent": "11.443",
+    "diffPath": "..\\results\\visual_diffs\\diff_weather_radar_interactive_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png"
+  },
+  {
+    "page": "weather_tenday_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "diffPixels": 104731,
+    "diffPercent": "9.983",
+    "diffPath": "..\\results\\visual_diffs\\diff_weather_tenday_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png"
+  },
+  {
+    "page": "weather_today_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "diffPixels": 611553,
+    "diffPercent": "7.548",
+    "diffPath": "..\\results\\visual_diffs\\diff_weather_today_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png"
   }
 ]
