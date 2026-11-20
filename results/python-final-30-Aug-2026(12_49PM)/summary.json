@@ -1,0 +1,162 @@
+[
+  {
+    "url": "https://www.python.org/",
+    "depth": 0,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/home.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/home.png",
+    "timeTaken": "6.03",
+    "timestamp": "2026-08-30T06:50:03.812Z"
+  },
+  {
+    "url": "https://www.python.org/#content",
+    "depth": 1,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/content.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/content.png",
+    "timeTaken": "5.48",
+    "timestamp": "2026-08-30T06:50:09.398Z"
+  },
+  {
+    "url": "https://www.python.org/#python-network",
+    "depth": 2,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/python-network.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/python-network.png",
+    "timeTaken": "5.47",
+    "timestamp": "2026-08-30T06:50:14.959Z"
+  },
+  {
+    "url": "https://www.python.org/psf/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/psf.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/psf.png",
+    "timeTaken": "5.42",
+    "timestamp": "2026-08-30T06:50:20.469Z"
+  },
+  {
+    "url": "https://www.python.org/jobs/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/jobs.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/jobs.png",
+    "timeTaken": "5.53",
+    "timestamp": "2026-08-30T06:50:26.117Z"
+  },
+  {
+    "url": "https://www.python.org/community/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/community.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/community.png",
+    "timeTaken": "5.34",
+    "timestamp": "2026-08-30T06:50:31.624Z"
+  },
+  {
+    "url": "https://www.python.org/#top",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/top.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/top.png",
+    "timeTaken": "5.44",
+    "timestamp": "2026-08-30T06:50:37.185Z"
+  },
+  {
+    "url": "https://www.python.org/#site-map",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/site-map.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/site-map.png",
+    "timeTaken": "5.54",
+    "timestamp": "2026-08-30T06:50:42.874Z"
+  },
+  {
+    "url": "https://www.python.org/#",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/home.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/home.png",
+    "timeTaken": "5.78",
+    "timestamp": "2026-08-30T06:50:48.897Z"
+  },
+  {
+    "url": "https://www.python.org/community/irc/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/community_irc.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/community_irc.png",
+    "timeTaken": "5.75",
+    "timestamp": "2026-08-30T06:50:54.928Z"
+  },
+  {
+    "url": "https://www.python.org/accounts/login/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/accounts_login.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/accounts_login.png",
+    "timeTaken": "6.55",
+    "timestamp": "2026-08-30T06:51:01.637Z"
+  },
+  {
+    "url": "https://www.python.org/accounts/signup/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/accounts_signup.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/accounts_signup.png",
+    "timeTaken": "5.78",
+    "timestamp": "2026-08-30T06:51:07.725Z"
+  },
+  {
+    "url": "https://www.python.org/about/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/about.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/about.png",
+    "timeTaken": "6.28",
+    "timestamp": "2026-08-30T06:51:14.129Z"
+  },
+  {
+    "url": "https://www.python.org/about/apps/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/about_apps.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/about_apps.png",
+    "timeTaken": "6.14",
+    "timestamp": "2026-08-30T06:51:20.408Z"
+  },
+  {
+    "url": "https://www.python.org/about/quotes/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/about_quotes.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/about_quotes.png",
+    "timeTaken": "6.04",
+    "timestamp": "2026-08-30T06:51:26.568Z"
+  },
+  {
+    "url": "https://www.python.org/about/gettingstarted/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/about_gettingstarted.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/about_gettingstarted.png",
+    "timeTaken": "5.91",
+    "timestamp": "2026-08-30T06:51:32.621Z"
+  },
+  {
+    "url": "https://www.python.org/about/help/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/about_help.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/about_help.png",
+    "timeTaken": "5.99",
+    "timestamp": "2026-08-30T06:51:38.727Z"
+  },
+  {
+    "url": "https://www.python.org/about",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/about.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/about.png",
+    "timeTaken": "5.97",
+    "timestamp": "2026-08-30T06:51:44.818Z"
+  },
+  {
+    "url": "https://www.python.org/downloads/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/downloads.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/downloads.png",
+    "timeTaken": "6.48",
+    "timestamp": "2026-08-30T06:51:51.418Z"
+  },
+  {
+    "url": "https://www.python.org/downloads/source/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/pdfs/downloads_source.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/python-final-30-Aug-2026(12_49PM)/screenshots/downloads_source.png",
+    "timeTaken": "7.21",
+    "timestamp": "2026-08-30T06:51:59.063Z"
+  }
+]

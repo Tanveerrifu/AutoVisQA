@@ -1,0 +1,135 @@
+[
+  {
+    "site": "nodejs",
+    "page": "about.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_about.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "blog.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_blog.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "docs_latest_api.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_docs_latest_api.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "en.png",
+    "diffPixels": 8195,
+    "diffPercent": "0.593",
+    "diffPath": "../results/visual_diffs/nodejs/diff_en.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "en_download.png",
+    "diffPixels": 10317,
+    "diffPercent": "0.540",
+    "diffPath": "../results/visual_diffs/nodejs/diff_en_download.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "home.png",
+    "diffPixels": 1201,
+    "diffPercent": "0.087",
+    "diffPath": "../results/visual_diffs/nodejs/diff_home.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_an-introduction-to-the-npm-package-manager.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_an-introduction-to-the-npm-package-manager.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_debugging.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_debugging.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_differences-between-nodejs-and-the-browser.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_differences-between-nodejs-and-the-browser.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_ecmascript-2015-es6-and-beyond.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_ecmascript-2015-es6-and-beyond.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_fetch.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_fetch.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_how-much-javascript-do-you-need-to-know-to-use-nodejs.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_how-much-javascript-do-you-need-to-know-to-use-nodejs.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_introduction-to-nodejs.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_introduction-to-nodejs.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_nodejs-the-difference-between-development-and-production.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_nodejs-the-difference-between-development-and-production.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_nodejs-with-webassembly.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_nodejs-with-webassembly.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_profiling.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_profiling.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_the-v8-javascript-engine.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_the-v8-javascript-engine.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_websocket.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_websocket.png"
+  }
+]

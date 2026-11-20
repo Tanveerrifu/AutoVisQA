@@ -1,0 +1,135 @@
+[
+  {
+    "site": "wikipedia",
+    "page": "w_index_php_title_Special_CreateAccount_returnto_Wikipedia_3AContents.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_w_index_php_title_Special_CreateAccount_returnto_Wikipedia_3AContents.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "w_index_php_title_Special_UserLogin_returnto_Wikipedia_3AContents.png",
+    "diffPixels": 1,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_w_index_php_title_Special_UserLogin_returnto_Wikipedia_3AContents.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Help_Contents.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Help_Contents.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Help_Introduction.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Help_Introduction.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Main_Page.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Main_Page.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Main_Page_bodyContent.png",
+    "diffPixels": 1,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Main_Page_bodyContent.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Portal_Current_events.png",
+    "diffPixels": 2,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Portal_Current_events.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Special_Random.png",
+    "diffPixels": 293799,
+    "diffPercent": "15.179",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Special_Random.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Special_RecentChanges.png",
+    "diffPixels": 376635,
+    "diffPercent": "12.902",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Special_RecentChanges.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Special_Search.png",
+    "diffPixels": 17,
+    "diffPercent": "0.001",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Special_Search.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Special_SpecialPages.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Special_SpecialPages.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_About.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_About.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Community_portal.png",
+    "diffPixels": 8569,
+    "diffPercent": "0.073",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Community_portal.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contact_us.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contact_us.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contents.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contents.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contents_Browse_by_subject.png",
+    "diffPixels": 5719,
+    "diffPercent": "0.094",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contents_Browse_by_subject.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contents_Culture_and_the_arts.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contents_Culture_and_the_arts.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contents_bodyContent.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contents_bodyContent.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_File_upload_wizard.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_File_upload_wizard.png"
+  }
+]

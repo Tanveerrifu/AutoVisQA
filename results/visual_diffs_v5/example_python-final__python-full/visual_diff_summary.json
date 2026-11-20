@@ -1,0 +1,450 @@
+[
+  {
+    "normalizedUrl": "https://www.python.org/",
+    "page": "home_2.png",
+    "refFile": "home.png",
+    "curFile": "home_2.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": true,
+    "diffPixels": 671633,
+    "totalPixels": 3380850,
+    "diffPercent": 19.8658,
+    "width": 1366,
+    "height": 2475,
+    "cropped": true,
+    "refSize": [
+      1366,
+      2657
+    ],
+    "curSize": [
+      1366,
+      2475
+    ],
+    "refSha256": "109d645f656e34775e399a6f21b872881b30e152aeea7b2b9d1ec60c7f176778",
+    "curSha256": "c68881c9770c353732f178c9c2ac6a9e80ccca24aad67aa394ecc36abed2e65b",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:16.618Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/psf",
+    "page": "psf.png",
+    "refFile": "psf.png",
+    "curFile": "psf.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 1523,
+    "totalPixels": 2861770,
+    "diffPercent": 0.0532,
+    "width": 1366,
+    "height": 2095,
+    "cropped": false,
+    "refSize": [
+      1366,
+      2095
+    ],
+    "curSize": [
+      1366,
+      2095
+    ],
+    "refSha256": "814b5cdf9648d86f082d7224c9f125f8326f48b0391f2e1e9571398cf69757fe",
+    "curSha256": "b1be6eb3930a3793f5e2550524b0583f90b39f0777ad1c3836c5d9fb487e8818",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:16.750Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/jobs",
+    "page": "jobs.png",
+    "refFile": "jobs.png",
+    "curFile": "jobs.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 0,
+    "totalPixels": 6701596,
+    "diffPercent": 0,
+    "width": 1366,
+    "height": 4906,
+    "cropped": false,
+    "refSize": [
+      1366,
+      4906
+    ],
+    "curSize": [
+      1366,
+      4906
+    ],
+    "refSha256": "c234eee0ab5564280a936ae25b8b0e7d9201a771fa2eb035c15df365918cebcb",
+    "curSha256": "c234eee0ab5564280a936ae25b8b0e7d9201a771fa2eb035c15df365918cebcb",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.025Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/community",
+    "page": "community.png",
+    "refFile": "community.png",
+    "curFile": "community.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 101,
+    "totalPixels": 2692386,
+    "diffPercent": 0.0038,
+    "width": 1366,
+    "height": 1971,
+    "cropped": false,
+    "refSize": [
+      1366,
+      1971
+    ],
+    "curSize": [
+      1366,
+      1971
+    ],
+    "refSha256": "6faf13a1acaec90321bd2da1509e19647877fddbe7c968d7708137ca52030529",
+    "curSha256": "c583a980b4c059c497e8173463213fad709134103448e5915d5d38d378858932",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.130Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/community/irc",
+    "page": "community_irc.png",
+    "refFile": "community_irc.png",
+    "curFile": "community_irc.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 0,
+    "totalPixels": 2595400,
+    "diffPercent": 0,
+    "width": 1366,
+    "height": 1900,
+    "cropped": false,
+    "refSize": [
+      1366,
+      1900
+    ],
+    "curSize": [
+      1366,
+      1900
+    ],
+    "refSha256": "2433cb94758823f95809725ddb241d232cd33fea0174be04df4db147b9606c93",
+    "curSha256": "2433cb94758823f95809725ddb241d232cd33fea0174be04df4db147b9606c93",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.214Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/accounts/login",
+    "page": "accounts_login.png",
+    "refFile": "accounts_login.png",
+    "curFile": "accounts_login.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 3314,
+    "totalPixels": 1762140,
+    "diffPercent": 0.1881,
+    "width": 1366,
+    "height": 1290,
+    "cropped": false,
+    "refSize": [
+      1366,
+      1290
+    ],
+    "curSize": [
+      1366,
+      1290
+    ],
+    "refSha256": "05226de0c1d84707fb7d673b2a69cc04bcdeadd70793183256cff3c016f7ad5a",
+    "curSha256": "7e2a592455f0a064c924d2e4e8eaeaef5fdb6667c7864868ce8a438e3d94481d",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.271Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/accounts/signup",
+    "page": "accounts_signup.png",
+    "refFile": "accounts_signup.png",
+    "curFile": "accounts_signup.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 0,
+    "totalPixels": 1995726,
+    "diffPercent": 0,
+    "width": 1366,
+    "height": 1461,
+    "cropped": false,
+    "refSize": [
+      1366,
+      1461
+    ],
+    "curSize": [
+      1366,
+      1461
+    ],
+    "refSha256": "ebba2d610243f891602c4bf4f20b6cabb7d642df5dbc6fb51e0058b1f6ddd064",
+    "curSha256": "ece6d1af6f2fb28156d245dcffa06120e0843a185f78a6b616b9eaebf9c8369e",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.342Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/about",
+    "page": "about_2.png",
+    "refFile": "about.png",
+    "curFile": "about_2.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": true,
+    "diffPixels": 1837,
+    "totalPixels": 3360360,
+    "diffPercent": 0.0547,
+    "width": 1366,
+    "height": 2460,
+    "cropped": false,
+    "refSize": [
+      1366,
+      2460
+    ],
+    "curSize": [
+      1366,
+      2460
+    ],
+    "refSha256": "870a46e9be615a225688d8955dd97cf927f855cc73524eac35f6ccf41f0a058c",
+    "curSha256": "a5abcdbd71b1c9d2953d0cdb639c761909a1cb0698712ca480bc2672ea608101",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.460Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/about/apps",
+    "page": "about_apps.png",
+    "refFile": "about_apps.png",
+    "curFile": "about_apps.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 2849,
+    "totalPixels": 4182692,
+    "diffPercent": 0.0681,
+    "width": 1366,
+    "height": 3062,
+    "cropped": false,
+    "refSize": [
+      1366,
+      3062
+    ],
+    "curSize": [
+      1366,
+      3062
+    ],
+    "refSha256": "2fda016fd69301a200c6a8f8b8c1be41d924795d528782523016fd241fd1d8f4",
+    "curSha256": "77cf7d7fc0bd9a64124760a442926d1bc90180c71bbbeb7d720ac1edb73987fe",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.614Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/about/quotes",
+    "page": "about_quotes.png",
+    "refFile": "about_quotes.png",
+    "curFile": "about_quotes.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 0,
+    "totalPixels": 5099278,
+    "diffPercent": 0,
+    "width": 1366,
+    "height": 3733,
+    "cropped": false,
+    "refSize": [
+      1366,
+      3733
+    ],
+    "curSize": [
+      1366,
+      3733
+    ],
+    "refSha256": "db5822c086c24e07b4fb11527437b6f99019d312cf61168246cda7cfc9c14a2b",
+    "curSha256": "db5822c086c24e07b4fb11527437b6f99019d312cf61168246cda7cfc9c14a2b",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.783Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/about/gettingstarted",
+    "page": "about_gettingstarted.png",
+    "refFile": "about_gettingstarted.png",
+    "curFile": "about_gettingstarted.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 0,
+    "totalPixels": 3136336,
+    "diffPercent": 0,
+    "width": 1366,
+    "height": 2296,
+    "cropped": false,
+    "refSize": [
+      1366,
+      2296
+    ],
+    "curSize": [
+      1366,
+      2296
+    ],
+    "refSha256": "70928623c8e2f842f85d0e3250399ea0c4628c0808dbdb1acf7080c970197239",
+    "curSha256": "70928623c8e2f842f85d0e3250399ea0c4628c0808dbdb1acf7080c970197239",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.879Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/about/help",
+    "page": "about_help.png",
+    "refFile": "about_help.png",
+    "curFile": "about_help.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 201,
+    "totalPixels": 3382216,
+    "diffPercent": 0.0059,
+    "width": 1366,
+    "height": 2476,
+    "cropped": false,
+    "refSize": [
+      1366,
+      2476
+    ],
+    "curSize": [
+      1366,
+      2476
+    ],
+    "refSha256": "06f4e0bf4a36143fe68d10005caa11c6880152ff1e793f8050e354a9b8f8277d",
+    "curSha256": "1bae297caca8ba0977368dfb8f5d88bf01c7e155832e9fbf63ca2d73090d5e42",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:17.991Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/downloads",
+    "page": "downloads.png",
+    "refFile": "downloads.png",
+    "curFile": "downloads.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 474,
+    "totalPixels": 6931084,
+    "diffPercent": 0.0068,
+    "width": 1366,
+    "height": 5074,
+    "cropped": false,
+    "refSize": [
+      1366,
+      5074
+    ],
+    "curSize": [
+      1366,
+      5074
+    ],
+    "refSha256": "535a46e42a299b0cb0fe59937225f5baba47107f35fb0b2b8d15064c49b28f4c",
+    "curSha256": "1f1664b1e329b407ff41b3532ea0f9c26018a9098d696eb64a78e4a83d051145",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:18.242Z"
+  },
+  {
+    "normalizedUrl": "https://www.python.org/downloads/source",
+    "page": "downloads_source.png",
+    "refFile": "downloads_source.png",
+    "curFile": "downloads_source.png",
+    "refSession": "python-final-30-Aug-2026(12_49PM)",
+    "curSession": "python-full-30-Aug-2026(1_01PM)",
+    "filenameShared": false,
+    "diffPixels": 8445,
+    "totalPixels": 32584564,
+    "diffPercent": 0.0259,
+    "width": 1366,
+    "height": 23854,
+    "cropped": false,
+    "refSize": [
+      1366,
+      23854
+    ],
+    "curSize": [
+      1366,
+      23854
+    ],
+    "refSha256": "31c0c959ce705e9fab8b13f7636862cc192a4f52ccb9e65bcb7cb45aa1a54432",
+    "curSha256": "6127981a42fc8d9fce2548f4681db48db452a05725ea0c2cc3c5be3b1f89efd4",
+    "tool": {
+      "name": "visual_diff_v5",
+      "pixelmatch": "5.x",
+      "threshold": 0.1,
+      "includeAA": true
+    },
+    "createdAt": "2026-11-20T20:14:20.389Z"
+  }
+]

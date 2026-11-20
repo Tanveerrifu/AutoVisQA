@@ -1,0 +1,128 @@
+[
+  {
+    "site": "python",
+    "page": "about.png",
+    "diffPixels": 1837,
+    "diffPercent": "0.055",
+    "diffPath": "../results/visual_diffs/python/diff_about.png"
+  },
+  {
+    "site": "python",
+    "page": "about_apps.png",
+    "diffPixels": 2849,
+    "diffPercent": "0.068",
+    "diffPath": "../results/visual_diffs/python/diff_about_apps.png"
+  },
+  {
+    "site": "python",
+    "page": "about_gettingstarted.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_about_gettingstarted.png"
+  },
+  {
+    "site": "python",
+    "page": "about_help.png",
+    "diffPixels": 201,
+    "diffPercent": "0.006",
+    "diffPath": "../results/visual_diffs/python/diff_about_help.png"
+  },
+  {
+    "site": "python",
+    "page": "about_quotes.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_about_quotes.png"
+  },
+  {
+    "site": "python",
+    "page": "accounts_login.png",
+    "diffPixels": 3314,
+    "diffPercent": "0.188",
+    "diffPath": "../results/visual_diffs/python/diff_accounts_login.png"
+  },
+  {
+    "site": "python",
+    "page": "accounts_signup.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_accounts_signup.png"
+  },
+  {
+    "site": "python",
+    "page": "community.png",
+    "diffPixels": 101,
+    "diffPercent": "0.004",
+    "diffPath": "../results/visual_diffs/python/diff_community.png"
+  },
+  {
+    "site": "python",
+    "page": "community_irc.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_community_irc.png"
+  },
+  {
+    "site": "python",
+    "page": "content.png",
+    "diffPixels": 671631,
+    "diffPercent": "19.866",
+    "diffPath": "../results/visual_diffs/python/diff_content.png"
+  },
+  {
+    "site": "python",
+    "page": "downloads.png",
+    "diffPixels": 474,
+    "diffPercent": "0.007",
+    "diffPath": "../results/visual_diffs/python/diff_downloads.png"
+  },
+  {
+    "site": "python",
+    "page": "downloads_source.png",
+    "diffPixels": 8445,
+    "diffPercent": "0.026",
+    "diffPath": "../results/visual_diffs/python/diff_downloads_source.png"
+  },
+  {
+    "site": "python",
+    "page": "home.png",
+    "diffPixels": 671633,
+    "diffPercent": "19.866",
+    "diffPath": "../results/visual_diffs/python/diff_home.png"
+  },
+  {
+    "site": "python",
+    "page": "jobs.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_jobs.png"
+  },
+  {
+    "site": "python",
+    "page": "psf.png",
+    "diffPixels": 1523,
+    "diffPercent": "0.053",
+    "diffPath": "../results/visual_diffs/python/diff_psf.png"
+  },
+  {
+    "site": "python",
+    "page": "python-network.png",
+    "diffPixels": 671300,
+    "diffPercent": "19.856",
+    "diffPath": "../results/visual_diffs/python/diff_python-network.png"
+  },
+  {
+    "site": "python",
+    "page": "site-map.png",
+    "diffPixels": 670106,
+    "diffPercent": "19.821",
+    "diffPath": "../results/visual_diffs/python/diff_site-map.png"
+  },
+  {
+    "site": "python",
+    "page": "top.png",
+    "diffPixels": 671237,
+    "diffPercent": "19.854",
+    "diffPath": "../results/visual_diffs/python/diff_top.png"
+  }
+]

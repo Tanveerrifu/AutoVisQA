@@ -1,0 +1,162 @@
+[
+  {
+    "url": "https://en.wikipedia.org/wiki/Main_Page",
+    "depth": 0,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Main_Page.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Main_Page.png",
+    "timeTaken": "7.23",
+    "timestamp": "2026-08-30T06:56:14.574Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Main_Page#bodyContent",
+    "depth": 1,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Main_Page_bodyContent.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Main_Page_bodyContent.png",
+    "timeTaken": "6.95",
+    "timestamp": "2026-08-30T06:56:21.868Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Contents",
+    "depth": 2,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Wikipedia_Contents.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Wikipedia_Contents.png",
+    "timeTaken": "5.65",
+    "timestamp": "2026-08-30T06:56:27.811Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Contents#bodyContent",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Wikipedia_Contents_bodyContent.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Wikipedia_Contents_bodyContent.png",
+    "timeTaken": "5.58",
+    "timestamp": "2026-08-30T06:56:33.498Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Portal_Current_events.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Portal_Current_events.png",
+    "timeTaken": "6.46",
+    "timestamp": "2026-08-30T06:56:40.102Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Special:Random",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Special_Random.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Special_Random.png",
+    "timeTaken": "8.13",
+    "timestamp": "2026-08-30T06:56:48.763Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:About",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Wikipedia_About.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Wikipedia_About.png",
+    "timeTaken": "5.57",
+    "timestamp": "2026-08-30T06:56:54.646Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Contact_us",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Wikipedia_Contact_us.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Wikipedia_Contact_us.png",
+    "timeTaken": "5.47",
+    "timestamp": "2026-08-30T06:57:00.265Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Help:Contents",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Help_Contents.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Help_Contents.png",
+    "timeTaken": "5.66",
+    "timestamp": "2026-08-30T06:57:05.989Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Help:Introduction",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Help_Introduction.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Help_Introduction.png",
+    "timeTaken": "5.56",
+    "timestamp": "2026-08-30T06:57:11.720Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Community_portal",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Wikipedia_Community_portal.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Wikipedia_Community_portal.png",
+    "timeTaken": "7.45",
+    "timestamp": "2026-08-30T06:57:19.247Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Special:RecentChanges",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Special_RecentChanges.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Special_RecentChanges.png",
+    "timeTaken": "5.78",
+    "timestamp": "2026-08-30T06:57:25.799Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Wikipedia_File_upload_wizard.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Wikipedia_File_upload_wizard.png",
+    "timeTaken": "5.50",
+    "timestamp": "2026-08-30T06:57:31.600Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Special:SpecialPages",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Special_SpecialPages.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Special_SpecialPages.png",
+    "timeTaken": "6.18",
+    "timestamp": "2026-08-30T06:57:37.877Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Special:Search",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Special_Search.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Special_Search.png",
+    "timeTaken": "5.99",
+    "timestamp": "2026-08-30T06:57:43.956Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Wikipedia%3AContents",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/w_index_php_title_Special_CreateAccount_returnto_Wikipedia_3AContents.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/w_index_php_title_Special_CreateAccount_returnto_Wikipedia_3AContents.png",
+    "timeTaken": "8.46",
+    "timestamp": "2026-08-30T06:57:52.521Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Wikipedia%3AContents",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/w_index_php_title_Special_UserLogin_returnto_Wikipedia_3AContents.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/w_index_php_title_Special_UserLogin_returnto_Wikipedia_3AContents.png",
+    "timeTaken": "6.63",
+    "timestamp": "2026-08-30T06:57:59.214Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Contents#",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Wikipedia_Contents.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Wikipedia_Contents.png",
+    "timeTaken": "6.64",
+    "timestamp": "2026-08-30T06:58:05.913Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Contents#Browse_by_subject",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Wikipedia_Contents_Browse_by_subject.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Wikipedia_Contents_Browse_by_subject.png",
+    "timeTaken": "5.93",
+    "timestamp": "2026-08-30T06:58:11.949Z"
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Wikipedia:Contents#Culture_and_the_arts",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/pdfs/wiki_Wikipedia_Contents_Culture_and_the_arts.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-final-30-Aug-2026(12_56PM)/screenshots/wiki_Wikipedia_Contents_Culture_and_the_arts.png",
+    "timeTaken": "6.31",
+    "timestamp": "2026-08-30T06:58:18.364Z"
+  }
+]

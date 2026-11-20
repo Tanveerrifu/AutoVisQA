@@ -1,0 +1,9 @@
+{
+    "total_pages": 20,
+    "average_load_time": 6.41,
+    "slowest_page": 8.42,
+    "fastest_page": 5.39,
+    "chart_path": "/Users/tanvir/Documents/AutoVisQA-main/results/charts/load_time_30-Aug-2026(01_11PM).png",
+    "csv_path": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-full-30-Aug-2026(1_03PM)/crawl_metrics.csv",
+    "slowest_pages_path": "/Users/tanvir/Documents/AutoVisQA-main/results/wikipedia-full-30-Aug-2026(1_03PM)/top_slowest_pages.csv"
+}

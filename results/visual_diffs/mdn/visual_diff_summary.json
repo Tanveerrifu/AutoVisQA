@@ -1,0 +1,128 @@
+[
+  {
+    "site": "mdn",
+    "page": "en-US.png",
+    "diffPixels": 105547,
+    "diffPercent": "2.461",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS_Reference_At-rules.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS_Reference_At-rules.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS_Reference_Properties.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS_Reference_Properties.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS_Reference_Selectors.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS_Reference_Selectors.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS_Reference_Values.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS_Reference_Values.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Guides.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Guides.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Guides_Cheatsheet.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Guides_Cheatsheet.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Guides_Date_and_time_formats.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Guides_Date_and_time_formats.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Guides_Responsive_images.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Guides_Responsive_images.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Reference.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Reference.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Reference_Attributes.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Reference_Attributes.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Reference_Elements.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Reference_Elements.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Reference_Global_attributes.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Reference_Global_attributes.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_MathML.png",
+    "diffPixels": 73579,
+    "diffPercent": "1.108",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_MathML.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_SVG.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_SVG.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_XML.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_XML.png"
+  }
+]

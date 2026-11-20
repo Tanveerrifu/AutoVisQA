@@ -1,0 +1,162 @@
+[
+  {
+    "url": "https://developer.mozilla.org/en-US/",
+    "depth": 0,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US.png",
+    "timeTaken": "5.72",
+    "timestamp": "2026-08-30T06:42:54.876Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/#content",
+    "depth": 1,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US.png",
+    "timeTaken": "5.46",
+    "timestamp": "2026-08-30T06:43:00.433Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/#search",
+    "depth": 2,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US.png",
+    "timeTaken": "5.45",
+    "timestamp": "2026-08-30T06:43:05.945Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_HTML.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_HTML.png",
+    "timeTaken": "5.62",
+    "timestamp": "2026-08-30T06:43:11.634Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_HTML_Reference_Elements.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_HTML_Reference_Elements.png",
+    "timeTaken": "6.08",
+    "timestamp": "2026-08-30T06:43:17.868Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_HTML_Reference_Global_attributes.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_HTML_Reference_Global_attributes.png",
+    "timeTaken": "6.67",
+    "timestamp": "2026-08-30T06:43:24.716Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_HTML_Reference_Attributes.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_HTML_Reference_Attributes.png",
+    "timeTaken": "6.87",
+    "timestamp": "2026-08-30T06:43:31.767Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_HTML_Reference.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_HTML_Reference.png",
+    "timeTaken": "5.38",
+    "timestamp": "2026-08-30T06:43:37.371Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_HTML_Guides_Responsive_images.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_HTML_Guides_Responsive_images.png",
+    "timeTaken": "6.01",
+    "timestamp": "2026-08-30T06:43:43.499Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_HTML_Guides_Cheatsheet.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_HTML_Guides_Cheatsheet.png",
+    "timeTaken": "6.01",
+    "timestamp": "2026-08-30T06:43:49.625Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_HTML_Guides_Date_and_time_formats.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_HTML_Guides_Date_and_time_formats.png",
+    "timeTaken": "5.86",
+    "timestamp": "2026-08-30T06:43:55.684Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_HTML_Guides.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_HTML_Guides.png",
+    "timeTaken": "5.44",
+    "timestamp": "2026-08-30T06:44:01.255Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/SVG",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_SVG.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_SVG.png",
+    "timeTaken": "5.47",
+    "timestamp": "2026-08-30T06:44:06.846Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/MathML",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_MathML.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_MathML.png",
+    "timeTaken": "5.81",
+    "timestamp": "2026-08-30T06:44:12.783Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/XML",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_XML.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_XML.png",
+    "timeTaken": "5.36",
+    "timestamp": "2026-08-30T06:44:18.230Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_CSS.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_CSS.png",
+    "timeTaken": "5.45",
+    "timestamp": "2026-08-30T06:44:23.759Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_CSS_Reference_Properties.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_CSS_Reference_Properties.png",
+    "timeTaken": "6.23",
+    "timestamp": "2026-08-30T06:44:30.350Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_CSS_Reference_Selectors.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_CSS_Reference_Selectors.png",
+    "timeTaken": "5.47",
+    "timestamp": "2026-08-30T06:44:36.293Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_CSS_Reference_At-rules.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_CSS_Reference_At-rules.png",
+    "timeTaken": "5.56",
+    "timestamp": "2026-08-30T06:44:42.195Z"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/pdfs/en-US_docs_Web_CSS_Reference_Values.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/mdn-30-Aug-2026(12_42PM)/screenshots/en-US_docs_Web_CSS_Reference_Values.png",
+    "timeTaken": "5.45",
+    "timestamp": "2026-08-30T06:44:48.002Z"
+  }
+]

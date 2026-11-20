@@ -1,0 +1,162 @@
+[
+  {
+    "url": "https://docs.github.com/en",
+    "depth": 0,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en.png",
+    "timeTaken": "6.21",
+    "timestamp": "2026-08-30T06:47:34.006Z"
+  },
+  {
+    "url": "https://docs.github.com/en#main-content",
+    "depth": 1,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en.png",
+    "timeTaken": "5.57",
+    "timestamp": "2026-08-30T06:47:39.628Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started",
+    "depth": 2,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started.png",
+    "timeTaken": "6.25",
+    "timestamp": "2026-08-30T06:47:45.956Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started#main-content",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started.png",
+    "timeTaken": "5.78",
+    "timestamp": "2026-08-30T06:47:51.846Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started#",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started.png",
+    "timeTaken": "5.86",
+    "timestamp": "2026-08-30T06:47:57.830Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/start-your-journey/what-is-github",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_start-your-journey_what-is-github.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_start-your-journey_what-is-github.png",
+    "timeTaken": "5.93",
+    "timestamp": "2026-08-30T06:48:03.891Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_start-your-journey_git-and-github-learning-resources.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_start-your-journey_git-and-github-learning-resources.png",
+    "timeTaken": "5.92",
+    "timestamp": "2026-08-30T06:48:09.914Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/start-your-journey/creating-a-repository-for-your-project-on-github",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.png",
+    "timeTaken": "5.86",
+    "timestamp": "2026-08-30T06:48:15.886Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/start-your-journey/planning-your-work",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_start-your-journey_planning-your-work.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_start-your-journey_planning-your-work.png",
+    "timeTaken": "5.89",
+    "timestamp": "2026-08-30T06:48:21.893Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/start-your-journey/connecting-to-your-code-locally",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_start-your-journey_connecting-to-your-code-locally.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_start-your-journey_connecting-to-your-code-locally.png",
+    "timeTaken": "5.98",
+    "timestamp": "2026-08-30T06:48:27.978Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/start-your-journey/writing-and-storing-your-code",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_start-your-journey_writing-and-storing-your-code.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_start-your-journey_writing-and-storing-your-code.png",
+    "timeTaken": "6.14",
+    "timestamp": "2026-08-30T06:48:34.234Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/start-your-journey/reviewing-your-proposed-changes",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_start-your-journey_reviewing-your-proposed-changes.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_start-your-journey_reviewing-your-proposed-changes.png",
+    "timeTaken": "6.05",
+    "timestamp": "2026-08-30T06:48:40.398Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/start-your-journey/deploying-your-website-automatically",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_start-your-journey_deploying-your-website-automatically.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_start-your-journey_deploying-your-website-automatically.png",
+    "timeTaken": "6.08",
+    "timestamp": "2026-08-30T06:48:46.590Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_onboarding_getting-started-with-your-github-account.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_onboarding_getting-started-with-your-github-account.png",
+    "timeTaken": "6.37",
+    "timestamp": "2026-08-30T06:48:53.066Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-github-team",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_onboarding_getting-started-with-github-team.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_onboarding_getting-started-with-github-team.png",
+    "timeTaken": "6.22",
+    "timestamp": "2026-08-30T06:48:59.425Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-the-github-enterprise-cloud-trial",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.png",
+    "timeTaken": "5.90",
+    "timestamp": "2026-08-30T06:49:05.444Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-github-enterprise-cloud",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_onboarding_getting-started-with-github-enterprise-cloud.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_onboarding_getting-started-with-github-enterprise-cloud.png",
+    "timeTaken": "5.64",
+    "timestamp": "2026-08-30T06:49:11.187Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/using-github/hello-world",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_using-github_hello-world.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_using-github_hello-world.png",
+    "timeTaken": "6.01",
+    "timestamp": "2026-08-30T06:49:17.303Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/using-github/github-flow",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_using-github_github-flow.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_using-github_github-flow.png",
+    "timeTaken": "5.78",
+    "timestamp": "2026-08-30T06:49:23.190Z"
+  },
+  {
+    "url": "https://docs.github.com/en/get-started/using-github/connecting-to-github",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/pdfs/en_get-started_using-github_connecting-to-github.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/github-docs-30-Aug-2026(12_47PM)/screenshots/en_get-started_using-github_connecting-to-github.png",
+    "timeTaken": "6.06",
+    "timestamp": "2026-08-30T06:49:29.358Z"
+  }
+]

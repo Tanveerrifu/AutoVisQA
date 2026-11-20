@@ -1,0 +1,3239 @@
+[
+  {
+    "subject": "nodejs",
+    "ref": "nodejs-30-Aug-2026(12_40PM)",
+    "cur": "nodejs-final-30-Aug-2026(12_51PM)",
+    "n_ref": 19,
+    "n_cur": 19,
+    "n_common_url": 19,
+    "n_nopair_f7": 0,
+    "n_tainted_f6": 1,
+    "n_geom_invalid": 0,
+    "n_blank": 0,
+    "n_timing": 4,
+    "n_reached_arith_stage": 18,
+    "n_unreadable_f1": 0,
+    "per_pair": [
+      {
+        "url": "https://nodejs.org",
+        "ref_file": "home.png",
+        "cur_file": "home.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 347373,
+        "c_bytes": 347269,
+        "r_dim": [
+          1366,
+          1011
+        ],
+        "c_dim": [
+          1366,
+          1011
+        ],
+        "r_load": 5.68,
+        "c_load": 5.65,
+        "signals_fired": [],
+        "d_raw": 2410,
+        "h_used": 1011,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 1201,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/about",
+        "ref_file": "about.png",
+        "cur_file": "about.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 573313,
+        "c_bytes": 573313,
+        "r_dim": [
+          1366,
+          2794
+        ],
+        "c_dim": [
+          1366,
+          2794
+        ],
+        "r_load": 5.5,
+        "c_load": 5.96,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2794,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/blog",
+        "ref_file": "blog.png",
+        "cur_file": "blog.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 314444,
+        "c_bytes": 314444,
+        "r_dim": [
+          1366,
+          1322
+        ],
+        "c_dim": [
+          1366,
+          1322
+        ],
+        "r_load": 6.2,
+        "c_load": 6.61,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 0,
+        "h_used": 1322,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/docs/latest/api",
+        "ref_file": "docs_latest_api.png",
+        "cur_file": "docs_latest_api.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 199575,
+        "c_bytes": 199575,
+        "r_dim": [
+          1366,
+          2283
+        ],
+        "c_dim": [
+          1366,
+          2283
+        ],
+        "r_load": 5.39,
+        "c_load": 5.41,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2283,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/en",
+        "verdict": "INVALID_F6",
+        "ref_file": "en.png",
+        "cur_file": "en_main.png"
+      },
+      {
+        "url": "https://nodejs.org/en/download",
+        "ref_file": "en_download.png",
+        "cur_file": "en_download.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.001,
+        "r_bytes": 245194,
+        "c_bytes": 244942,
+        "r_dim": [
+          1366,
+          1399
+        ],
+        "c_dim": [
+          1366,
+          1399
+        ],
+        "r_load": 5.52,
+        "c_load": 5.41,
+        "signals_fired": [],
+        "d_raw": 10608,
+        "h_used": 1399,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 10317,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn",
+        "ref_file": "learn.png",
+        "cur_file": "learn.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 245038,
+        "c_bytes": 245038,
+        "r_dim": [
+          1366,
+          1073
+        ],
+        "c_dim": [
+          1366,
+          1073
+        ],
+        "r_load": 6.34,
+        "c_load": 5.99,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 0,
+        "h_used": 1073,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/an-introduction-to-the-npm-package-manager",
+        "ref_file": "learn_getting-started_an-introduction-to-the-npm-package-manager.png",
+        "cur_file": "learn_getting-started_an-introduction-to-the-npm-package-manager.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 623210,
+        "c_bytes": 623210,
+        "r_dim": [
+          1366,
+          3685
+        ],
+        "c_dim": [
+          1366,
+          3685
+        ],
+        "r_load": 5.81,
+        "c_load": 5.91,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3685,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/debugging",
+        "ref_file": "learn_getting-started_debugging.png",
+        "cur_file": "learn_getting-started_debugging.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1094776,
+        "c_bytes": 1094776,
+        "r_dim": [
+          1366,
+          4953
+        ],
+        "c_dim": [
+          1366,
+          4953
+        ],
+        "r_load": 5.85,
+        "c_load": 6.8,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 0,
+        "h_used": 4953,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/differences-between-nodejs-and-the-browser",
+        "ref_file": "learn_getting-started_differences-between-nodejs-and-the-browser.png",
+        "cur_file": "learn_getting-started_differences-between-nodejs-and-the-browser.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 391937,
+        "c_bytes": 391937,
+        "r_dim": [
+          1366,
+          1353
+        ],
+        "c_dim": [
+          1366,
+          1353
+        ],
+        "r_load": 5.73,
+        "c_load": 5.72,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1353,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/ecmascript-2015-es6-and-beyond",
+        "ref_file": "learn_getting-started_ecmascript-2015-es6-and-beyond.png",
+        "cur_file": "learn_getting-started_ecmascript-2015-es6-and-beyond.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 467138,
+        "c_bytes": 467138,
+        "r_dim": [
+          1366,
+          1663
+        ],
+        "c_dim": [
+          1366,
+          1663
+        ],
+        "r_load": 5.68,
+        "c_load": 6.01,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1663,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/fetch",
+        "ref_file": "learn_getting-started_fetch.png",
+        "cur_file": "learn_getting-started_fetch.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 777580,
+        "c_bytes": 777580,
+        "r_dim": [
+          1366,
+          4358
+        ],
+        "c_dim": [
+          1366,
+          4358
+        ],
+        "r_load": 5.84,
+        "c_load": 5.92,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4358,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/how-much-javascript-do-you-need-to-know-to-use-nodejs",
+        "ref_file": "learn_getting-started_how-much-javascript-do-you-need-to-know-to-use-nodejs.png",
+        "cur_file": "learn_getting-started_how-much-javascript-do-you-need-to-know-to-use-nodejs.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 292117,
+        "c_bytes": 292117,
+        "r_dim": [
+          1366,
+          1493
+        ],
+        "c_dim": [
+          1366,
+          1493
+        ],
+        "r_load": 5.8,
+        "c_load": 5.8,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1493,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/introduction-to-nodejs",
+        "ref_file": "learn_getting-started_introduction-to-nodejs.png",
+        "cur_file": "learn_getting-started_introduction-to-nodejs.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 538101,
+        "c_bytes": 538101,
+        "r_dim": [
+          1366,
+          2627
+        ],
+        "c_dim": [
+          1366,
+          2627
+        ],
+        "r_load": 5.92,
+        "c_load": 6.0,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2627,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/nodejs-the-difference-between-development-and-production",
+        "ref_file": "learn_getting-started_nodejs-the-difference-between-development-and-production.png",
+        "cur_file": "learn_getting-started_nodejs-the-difference-between-development-and-production.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 347955,
+        "c_bytes": 347955,
+        "r_dim": [
+          1366,
+          1411
+        ],
+        "c_dim": [
+          1366,
+          1411
+        ],
+        "r_load": 5.7,
+        "c_load": 5.78,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1411,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/nodejs-with-webassembly",
+        "ref_file": "learn_getting-started_nodejs-with-webassembly.png",
+        "cur_file": "learn_getting-started_nodejs-with-webassembly.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 484590,
+        "c_bytes": 484590,
+        "r_dim": [
+          1366,
+          2293
+        ],
+        "c_dim": [
+          1366,
+          2293
+        ],
+        "r_load": 5.74,
+        "c_load": 6.71,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 0,
+        "h_used": 2293,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/profiling",
+        "ref_file": "learn_getting-started_profiling.png",
+        "cur_file": "learn_getting-started_profiling.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1285480,
+        "c_bytes": 1285480,
+        "r_dim": [
+          1366,
+          6402
+        ],
+        "c_dim": [
+          1366,
+          6402
+        ],
+        "r_load": 6.01,
+        "c_load": 6.13,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 6402,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/the-v8-javascript-engine",
+        "ref_file": "learn_getting-started_the-v8-javascript-engine.png",
+        "cur_file": "learn_getting-started_the-v8-javascript-engine.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 468350,
+        "c_bytes": 468350,
+        "r_dim": [
+          1366,
+          1973
+        ],
+        "c_dim": [
+          1366,
+          1973
+        ],
+        "r_load": 5.71,
+        "c_load": 5.81,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1973,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://nodejs.org/learn/getting-started/websocket",
+        "ref_file": "learn_getting-started_websocket.png",
+        "cur_file": "learn_getting-started_websocket.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 696396,
+        "c_bytes": 696396,
+        "r_dim": [
+          1366,
+          2805
+        ],
+        "c_dim": [
+          1366,
+          2805
+        ],
+        "r_load": 5.79,
+        "c_load": 5.97,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2805,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      }
+    ],
+    "existing_backend_match": {
+      "summary_path": "visual_diffs/nodejs/visual_diff_summary.json",
+      "overlap": 18,
+      "existing_n": 19
+    },
+    "arith_check": {
+      "n_checked": 18,
+      "n_impossible": 0,
+      "impossible_list": []
+    }
+  },
+  {
+    "subject": "mdn",
+    "ref": "mdn-30-Aug-2026(12_42PM)",
+    "cur": "mdn-final-30-Aug-2026(12_54PM)",
+    "n_ref": 18,
+    "n_cur": 18,
+    "n_common_url": 18,
+    "n_nopair_f7": 0,
+    "n_tainted_f6": 1,
+    "n_geom_invalid": 0,
+    "n_blank": 0,
+    "n_timing": 1,
+    "n_reached_arith_stage": 17,
+    "n_unreadable_f1": 0,
+    "per_pair": [
+      {
+        "url": "https://developer.mozilla.org/en-US",
+        "verdict": "INVALID_F6",
+        "ref_file": "en-US.png",
+        "cur_file": "en-US__search.png"
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "ref_file": "en-US_docs_Web_CSS.png",
+        "cur_file": "en-US_docs_Web_CSS.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 681923,
+        "c_bytes": 681923,
+        "r_dim": [
+          1351,
+          4184
+        ],
+        "c_dim": [
+          1351,
+          4184
+        ],
+        "r_load": 5.45,
+        "c_load": 5.91,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4184,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules",
+        "ref_file": "en-US_docs_Web_CSS_Reference_At-rules.png",
+        "cur_file": "en-US_docs_Web_CSS_Reference_At-rules.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 520322,
+        "c_bytes": 520322,
+        "r_dim": [
+          1351,
+          4407
+        ],
+        "c_dim": [
+          1351,
+          4407
+        ],
+        "r_load": 5.56,
+        "c_load": 5.9,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4407,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties",
+        "ref_file": "en-US_docs_Web_CSS_Reference_Properties.png",
+        "cur_file": "en-US_docs_Web_CSS_Reference_Properties.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 2098707,
+        "c_bytes": 2098583,
+        "r_dim": [
+          1351,
+          18957
+        ],
+        "c_dim": [
+          1351,
+          18957
+        ],
+        "r_load": 6.23,
+        "c_load": 6.58,
+        "signals_fired": [],
+        "d_raw": 3644,
+        "h_used": 18957,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors",
+        "ref_file": "en-US_docs_Web_CSS_Reference_Selectors.png",
+        "cur_file": "en-US_docs_Web_CSS_Reference_Selectors.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 364656,
+        "c_bytes": 364656,
+        "r_dim": [
+          1351,
+          2770
+        ],
+        "c_dim": [
+          1351,
+          2770
+        ],
+        "r_load": 5.47,
+        "c_load": 5.5,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2770,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values",
+        "ref_file": "en-US_docs_Web_CSS_Reference_Values.png",
+        "cur_file": "en-US_docs_Web_CSS_Reference_Values.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 286539,
+        "c_bytes": 286539,
+        "r_dim": [
+          1351,
+          2095
+        ],
+        "c_dim": [
+          1351,
+          2095
+        ],
+        "r_load": 5.45,
+        "c_load": 6.03,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2095,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "ref_file": "en-US_docs_Web_HTML.png",
+        "cur_file": "en-US_docs_Web_HTML.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 843966,
+        "c_bytes": 843966,
+        "r_dim": [
+          1351,
+          5232
+        ],
+        "c_dim": [
+          1351,
+          5232
+        ],
+        "r_load": 5.62,
+        "c_load": 5.61,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 5232,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides",
+        "ref_file": "en-US_docs_Web_HTML_Guides.png",
+        "cur_file": "en-US_docs_Web_HTML_Guides.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 529637,
+        "c_bytes": 529637,
+        "r_dim": [
+          1351,
+          2960
+        ],
+        "c_dim": [
+          1351,
+          2960
+        ],
+        "r_load": 5.44,
+        "c_load": 5.45,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2960,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Cheatsheet",
+        "ref_file": "en-US_docs_Web_HTML_Guides_Cheatsheet.png",
+        "cur_file": "en-US_docs_Web_HTML_Guides_Cheatsheet.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 951851,
+        "c_bytes": 951851,
+        "r_dim": [
+          1351,
+          13916
+        ],
+        "c_dim": [
+          1351,
+          13916
+        ],
+        "r_load": 6.01,
+        "c_load": 6.29,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 13916,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Date_and_time_formats",
+        "ref_file": "en-US_docs_Web_HTML_Guides_Date_and_time_formats.png",
+        "cur_file": "en-US_docs_Web_HTML_Guides_Date_and_time_formats.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1820497,
+        "c_bytes": 1820497,
+        "r_dim": [
+          1351,
+          10611
+        ],
+        "c_dim": [
+          1351,
+          10611
+        ],
+        "r_load": 5.86,
+        "c_load": 5.86,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 10611,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images",
+        "ref_file": "en-US_docs_Web_HTML_Guides_Responsive_images.png",
+        "cur_file": "en-US_docs_Web_HTML_Guides_Responsive_images.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 3214061,
+        "c_bytes": 3214061,
+        "r_dim": [
+          1351,
+          12641
+        ],
+        "c_dim": [
+          1351,
+          12641
+        ],
+        "r_load": 6.01,
+        "c_load": 6.05,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 12641,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference",
+        "ref_file": "en-US_docs_Web_HTML_Reference.png",
+        "cur_file": "en-US_docs_Web_HTML_Reference.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 293174,
+        "c_bytes": 293174,
+        "r_dim": [
+          1351,
+          1892
+        ],
+        "c_dim": [
+          1351,
+          1892
+        ],
+        "r_load": 5.38,
+        "c_load": 5.37,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1892,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes",
+        "ref_file": "en-US_docs_Web_HTML_Reference_Attributes.png",
+        "cur_file": "en-US_docs_Web_HTML_Reference_Attributes.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 2621119,
+        "c_bytes": 2621119,
+        "r_dim": [
+          1351,
+          16526
+        ],
+        "c_dim": [
+          1351,
+          16526
+        ],
+        "r_load": 6.87,
+        "c_load": 6.52,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 0,
+        "h_used": 16526,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements",
+        "ref_file": "en-US_docs_Web_HTML_Reference_Elements.png",
+        "cur_file": "en-US_docs_Web_HTML_Reference_Elements.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 3230278,
+        "c_bytes": 3230278,
+        "r_dim": [
+          1351,
+          16782
+        ],
+        "c_dim": [
+          1351,
+          16782
+        ],
+        "r_load": 6.08,
+        "c_load": 6.16,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 16782,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes",
+        "ref_file": "en-US_docs_Web_HTML_Reference_Global_attributes.png",
+        "cur_file": "en-US_docs_Web_HTML_Reference_Global_attributes.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 2556712,
+        "c_bytes": 2556712,
+        "r_dim": [
+          1351,
+          16626
+        ],
+        "c_dim": [
+          1351,
+          16626
+        ],
+        "r_load": 6.67,
+        "c_load": 6.74,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 16626,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/MathML",
+        "ref_file": "en-US_docs_Web_MathML.png",
+        "cur_file": "en-US_docs_Web_MathML.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.003,
+        "r_bytes": 724768,
+        "c_bytes": 726764,
+        "r_dim": [
+          1351,
+          4916
+        ],
+        "c_dim": [
+          1351,
+          4916
+        ],
+        "r_load": 5.81,
+        "c_load": 5.85,
+        "signals_fired": [],
+        "d_raw": 77007,
+        "h_used": 4916,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 73579,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/SVG",
+        "ref_file": "en-US_docs_Web_SVG.png",
+        "cur_file": "en-US_docs_Web_SVG.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 570496,
+        "c_bytes": 570496,
+        "r_dim": [
+          1351,
+          3452
+        ],
+        "c_dim": [
+          1351,
+          3452
+        ],
+        "r_load": 5.47,
+        "c_load": 5.43,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3452,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://developer.mozilla.org/en-US/docs/Web/XML",
+        "ref_file": "en-US_docs_Web_XML.png",
+        "cur_file": "en-US_docs_Web_XML.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 263962,
+        "c_bytes": 263962,
+        "r_dim": [
+          1351,
+          1676
+        ],
+        "c_dim": [
+          1351,
+          1676
+        ],
+        "r_load": 5.36,
+        "c_load": 5.4,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1676,
+        "w_used": 1351,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      }
+    ],
+    "existing_backend_match": {
+      "summary_path": "visual_diffs/mdn/visual_diff_summary.json",
+      "overlap": 17,
+      "existing_n": 18
+    },
+    "arith_check": {
+      "n_checked": 17,
+      "n_impossible": 0,
+      "impossible_list": []
+    }
+  },
+  {
+    "subject": "github-docs",
+    "ref": "github-docs-30-Aug-2026(12_47PM)",
+    "cur": "github-docs-final-30-Aug-2026(12_58PM)",
+    "n_ref": 17,
+    "n_cur": 17,
+    "n_common_url": 17,
+    "n_nopair_f7": 0,
+    "n_tainted_f6": 2,
+    "n_geom_invalid": 0,
+    "n_blank": 0,
+    "n_timing": 1,
+    "n_reached_arith_stage": 15,
+    "n_unreadable_f1": 0,
+    "per_pair": [
+      {
+        "url": "https://docs.github.com/en",
+        "verdict": "INVALID_F6",
+        "ref_file": "en.png",
+        "cur_file": "en_main-content.png"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started",
+        "verdict": "INVALID_F6",
+        "ref_file": "en_get-started.png",
+        "cur_file": "en_get-started.png"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-github-enterprise-cloud",
+        "ref_file": "en_get-started_onboarding_getting-started-with-github-enterprise-cloud.png",
+        "cur_file": "en_get-started_onboarding_getting-started-with-github-enterprise-cloud.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 172948,
+        "c_bytes": 172948,
+        "r_dim": [
+          1366,
+          1208
+        ],
+        "c_dim": [
+          1366,
+          1208
+        ],
+        "r_load": 5.64,
+        "c_load": 5.63,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1208,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-github-team",
+        "ref_file": "en_get-started_onboarding_getting-started-with-github-team.png",
+        "cur_file": "en_get-started_onboarding_getting-started-with-github-team.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1317742,
+        "c_bytes": 1317526,
+        "r_dim": [
+          1366,
+          6507
+        ],
+        "c_dim": [
+          1366,
+          6507
+        ],
+        "r_load": 6.22,
+        "c_load": 6.4,
+        "signals_fired": [],
+        "d_raw": 53,
+        "h_used": 6507,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-the-github-enterprise-cloud-trial",
+        "ref_file": "en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.png",
+        "cur_file": "en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 222389,
+        "c_bytes": 222389,
+        "r_dim": [
+          1366,
+          1504
+        ],
+        "c_dim": [
+          1366,
+          1504
+        ],
+        "r_load": 5.9,
+        "c_load": 5.86,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1504,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account",
+        "ref_file": "en_get-started_onboarding_getting-started-with-your-github-account.png",
+        "cur_file": "en_get-started_onboarding_getting-started-with-your-github-account.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1655850,
+        "c_bytes": 1656184,
+        "r_dim": [
+          1366,
+          8259
+        ],
+        "c_dim": [
+          1366,
+          8259
+        ],
+        "r_load": 6.37,
+        "c_load": 6.3,
+        "signals_fired": [],
+        "d_raw": 67,
+        "h_used": 8259,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/connecting-to-your-code-locally",
+        "ref_file": "en_get-started_start-your-journey_connecting-to-your-code-locally.png",
+        "cur_file": "en_get-started_start-your-journey_connecting-to-your-code-locally.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 470157,
+        "c_bytes": 470157,
+        "r_dim": [
+          1366,
+          2985
+        ],
+        "c_dim": [
+          1366,
+          2985
+        ],
+        "r_load": 5.98,
+        "c_load": 5.96,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2985,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/creating-a-repository-for-your-project-on-github",
+        "ref_file": "en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.png",
+        "cur_file": "en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 508521,
+        "c_bytes": 508521,
+        "r_dim": [
+          1366,
+          3324
+        ],
+        "c_dim": [
+          1366,
+          3324
+        ],
+        "r_load": 5.86,
+        "c_load": 6.02,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3324,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/deploying-your-website-automatically",
+        "ref_file": "en_get-started_start-your-journey_deploying-your-website-automatically.png",
+        "cur_file": "en_get-started_start-your-journey_deploying-your-website-automatically.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 686860,
+        "c_bytes": 686860,
+        "r_dim": [
+          1366,
+          4253
+        ],
+        "c_dim": [
+          1366,
+          4253
+        ],
+        "r_load": 6.08,
+        "c_load": 6.13,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4253,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources",
+        "ref_file": "en_get-started_start-your-journey_git-and-github-learning-resources.png",
+        "cur_file": "en_get-started_start-your-journey_git-and-github-learning-resources.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 304919,
+        "c_bytes": 304919,
+        "r_dim": [
+          1366,
+          2023
+        ],
+        "c_dim": [
+          1366,
+          2023
+        ],
+        "r_load": 5.92,
+        "c_load": 5.7,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2023,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/planning-your-work",
+        "ref_file": "en_get-started_start-your-journey_planning-your-work.png",
+        "cur_file": "en_get-started_start-your-journey_planning-your-work.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 449151,
+        "c_bytes": 449151,
+        "r_dim": [
+          1366,
+          3010
+        ],
+        "c_dim": [
+          1366,
+          3010
+        ],
+        "r_load": 5.89,
+        "c_load": 5.94,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3010,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/reviewing-your-proposed-changes",
+        "ref_file": "en_get-started_start-your-journey_reviewing-your-proposed-changes.png",
+        "cur_file": "en_get-started_start-your-journey_reviewing-your-proposed-changes.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 645836,
+        "c_bytes": 645836,
+        "r_dim": [
+          1366,
+          4007
+        ],
+        "c_dim": [
+          1366,
+          4007
+        ],
+        "r_load": 6.05,
+        "c_load": 6.03,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4007,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/what-is-github",
+        "ref_file": "en_get-started_start-your-journey_what-is-github.png",
+        "cur_file": "en_get-started_start-your-journey_what-is-github.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 507057,
+        "c_bytes": 507057,
+        "r_dim": [
+          1366,
+          2930
+        ],
+        "c_dim": [
+          1366,
+          2930
+        ],
+        "r_load": 5.93,
+        "c_load": 5.68,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2930,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/writing-and-storing-your-code",
+        "ref_file": "en_get-started_start-your-journey_writing-and-storing-your-code.png",
+        "cur_file": "en_get-started_start-your-journey_writing-and-storing-your-code.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 686175,
+        "c_bytes": 686175,
+        "r_dim": [
+          1366,
+          4841
+        ],
+        "c_dim": [
+          1366,
+          4841
+        ],
+        "r_load": 6.14,
+        "c_load": 6.1,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4841,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/using-github/connecting-to-github",
+        "ref_file": "en_get-started_using-github_connecting-to-github.png",
+        "cur_file": "en_get-started_using-github_connecting-to-github.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 910949,
+        "c_bytes": 910949,
+        "r_dim": [
+          1366,
+          4644
+        ],
+        "c_dim": [
+          1366,
+          4644
+        ],
+        "r_load": 6.06,
+        "c_load": 6.65,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4644,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/using-github/github-flow",
+        "ref_file": "en_get-started_using-github_github-flow.png",
+        "cur_file": "en_get-started_using-github_github-flow.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 719364,
+        "c_bytes": 719364,
+        "r_dim": [
+          1366,
+          3660
+        ],
+        "c_dim": [
+          1366,
+          3660
+        ],
+        "r_load": 5.78,
+        "c_load": 5.85,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3660,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/using-github/hello-world",
+        "ref_file": "en_get-started_using-github_hello-world.png",
+        "cur_file": "en_get-started_using-github_hello-world.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1176386,
+        "c_bytes": 1176889,
+        "r_dim": [
+          1366,
+          6652
+        ],
+        "c_dim": [
+          1366,
+          6652
+        ],
+        "r_load": 6.01,
+        "c_load": 7.06,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 1334,
+        "h_used": 6652,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 116,
+        "arith_ok": true
+      }
+    ],
+    "existing_backend_match": {
+      "summary_path": "visual_diffs/github-docs/visual_diff_summary.json",
+      "overlap": 17,
+      "existing_n": 19
+    },
+    "arith_check": {
+      "n_checked": 15,
+      "n_impossible": 0,
+      "impossible_list": []
+    }
+  },
+  {
+    "subject": "github-docs",
+    "ref": "github-docs-final-30-Aug-2026(12_58PM)",
+    "cur": "github-docs-full-30-Aug-2026(1_05PM)",
+    "n_ref": 17,
+    "n_cur": 17,
+    "n_common_url": 17,
+    "n_nopair_f7": 0,
+    "n_tainted_f6": 1,
+    "n_geom_invalid": 0,
+    "n_blank": 0,
+    "n_timing": 1,
+    "n_reached_arith_stage": 16,
+    "n_unreadable_f1": 0,
+    "per_pair": [
+      {
+        "url": "https://docs.github.com/en",
+        "ref_file": "en_main-content.png",
+        "cur_file": "en_main-content.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 216979,
+        "c_bytes": 216979,
+        "r_dim": [
+          1366,
+          1939
+        ],
+        "c_dim": [
+          1366,
+          1939
+        ],
+        "r_load": 5.59,
+        "c_load": 5.6,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1939,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started",
+        "verdict": "INVALID_F6",
+        "ref_file": "en_get-started.png",
+        "cur_file": "en_get-started_2.png"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-github-enterprise-cloud",
+        "ref_file": "en_get-started_onboarding_getting-started-with-github-enterprise-cloud.png",
+        "cur_file": "en_get-started_onboarding_getting-started-with-github-enterprise-cloud.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 172948,
+        "c_bytes": 172948,
+        "r_dim": [
+          1366,
+          1208
+        ],
+        "c_dim": [
+          1366,
+          1208
+        ],
+        "r_load": 5.63,
+        "c_load": 5.52,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1208,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-github-team",
+        "ref_file": "en_get-started_onboarding_getting-started-with-github-team.png",
+        "cur_file": "en_get-started_onboarding_getting-started-with-github-team.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1317526,
+        "c_bytes": 1317742,
+        "r_dim": [
+          1366,
+          6507
+        ],
+        "c_dim": [
+          1366,
+          6507
+        ],
+        "r_load": 6.4,
+        "c_load": 5.9,
+        "signals_fired": [],
+        "d_raw": 53,
+        "h_used": 6507,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-the-github-enterprise-cloud-trial",
+        "ref_file": "en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.png",
+        "cur_file": "en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 222389,
+        "c_bytes": 222389,
+        "r_dim": [
+          1366,
+          1504
+        ],
+        "c_dim": [
+          1366,
+          1504
+        ],
+        "r_load": 5.86,
+        "c_load": 5.61,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1504,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account",
+        "ref_file": "en_get-started_onboarding_getting-started-with-your-github-account.png",
+        "cur_file": "en_get-started_onboarding_getting-started-with-your-github-account.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1656184,
+        "c_bytes": 1656184,
+        "r_dim": [
+          1366,
+          8259
+        ],
+        "c_dim": [
+          1366,
+          8259
+        ],
+        "r_load": 6.3,
+        "c_load": 6.01,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 8259,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/connecting-to-your-code-locally",
+        "ref_file": "en_get-started_start-your-journey_connecting-to-your-code-locally.png",
+        "cur_file": "en_get-started_start-your-journey_connecting-to-your-code-locally.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 470157,
+        "c_bytes": 470157,
+        "r_dim": [
+          1366,
+          2985
+        ],
+        "c_dim": [
+          1366,
+          2985
+        ],
+        "r_load": 5.96,
+        "c_load": 5.74,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2985,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/creating-a-repository-for-your-project-on-github",
+        "ref_file": "en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.png",
+        "cur_file": "en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 508521,
+        "c_bytes": 508521,
+        "r_dim": [
+          1366,
+          3324
+        ],
+        "c_dim": [
+          1366,
+          3324
+        ],
+        "r_load": 6.02,
+        "c_load": 6.1,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3324,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/deploying-your-website-automatically",
+        "ref_file": "en_get-started_start-your-journey_deploying-your-website-automatically.png",
+        "cur_file": "en_get-started_start-your-journey_deploying-your-website-automatically.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 686860,
+        "c_bytes": 686860,
+        "r_dim": [
+          1366,
+          4253
+        ],
+        "c_dim": [
+          1366,
+          4253
+        ],
+        "r_load": 6.13,
+        "c_load": 5.85,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4253,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/git-and-github-learning-resources",
+        "ref_file": "en_get-started_start-your-journey_git-and-github-learning-resources.png",
+        "cur_file": "en_get-started_start-your-journey_git-and-github-learning-resources.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 304919,
+        "c_bytes": 304919,
+        "r_dim": [
+          1366,
+          2023
+        ],
+        "c_dim": [
+          1366,
+          2023
+        ],
+        "r_load": 5.7,
+        "c_load": 5.64,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2023,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/planning-your-work",
+        "ref_file": "en_get-started_start-your-journey_planning-your-work.png",
+        "cur_file": "en_get-started_start-your-journey_planning-your-work.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 449151,
+        "c_bytes": 449151,
+        "r_dim": [
+          1366,
+          3010
+        ],
+        "c_dim": [
+          1366,
+          3010
+        ],
+        "r_load": 5.94,
+        "c_load": 5.84,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3010,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/reviewing-your-proposed-changes",
+        "ref_file": "en_get-started_start-your-journey_reviewing-your-proposed-changes.png",
+        "cur_file": "en_get-started_start-your-journey_reviewing-your-proposed-changes.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 645836,
+        "c_bytes": 645836,
+        "r_dim": [
+          1366,
+          4007
+        ],
+        "c_dim": [
+          1366,
+          4007
+        ],
+        "r_load": 6.03,
+        "c_load": 5.79,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4007,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/what-is-github",
+        "ref_file": "en_get-started_start-your-journey_what-is-github.png",
+        "cur_file": "en_get-started_start-your-journey_what-is-github.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 507057,
+        "c_bytes": 507057,
+        "r_dim": [
+          1366,
+          2930
+        ],
+        "c_dim": [
+          1366,
+          2930
+        ],
+        "r_load": 5.68,
+        "c_load": 5.74,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2930,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/start-your-journey/writing-and-storing-your-code",
+        "ref_file": "en_get-started_start-your-journey_writing-and-storing-your-code.png",
+        "cur_file": "en_get-started_start-your-journey_writing-and-storing-your-code.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 686175,
+        "c_bytes": 686175,
+        "r_dim": [
+          1366,
+          4841
+        ],
+        "c_dim": [
+          1366,
+          4841
+        ],
+        "r_load": 6.1,
+        "c_load": 5.88,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4841,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/using-github/connecting-to-github",
+        "ref_file": "en_get-started_using-github_connecting-to-github.png",
+        "cur_file": "en_get-started_using-github_connecting-to-github.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 910949,
+        "c_bytes": 910949,
+        "r_dim": [
+          1366,
+          4644
+        ],
+        "c_dim": [
+          1366,
+          4644
+        ],
+        "r_load": 6.65,
+        "c_load": 5.82,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4644,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/using-github/github-flow",
+        "ref_file": "en_get-started_using-github_github-flow.png",
+        "cur_file": "en_get-started_using-github_github-flow.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 719364,
+        "c_bytes": 719364,
+        "r_dim": [
+          1366,
+          3660
+        ],
+        "c_dim": [
+          1366,
+          3660
+        ],
+        "r_load": 5.85,
+        "c_load": 5.73,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3660,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://docs.github.com/en/get-started/using-github/hello-world",
+        "ref_file": "en_get-started_using-github_hello-world.png",
+        "cur_file": "en_get-started_using-github_hello-world.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1176889,
+        "c_bytes": 1176386,
+        "r_dim": [
+          1366,
+          6652
+        ],
+        "c_dim": [
+          1366,
+          6652
+        ],
+        "r_load": 7.06,
+        "c_load": 6.04,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 1334,
+        "h_used": 6652,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      }
+    ]
+  },
+  {
+    "subject": "wikipedia",
+    "ref": "wikipedia-30-Aug-2026(12_44PM)",
+    "cur": "wikipedia-final-30-Aug-2026(12_56PM)",
+    "n_ref": 15,
+    "n_cur": 15,
+    "n_common_url": 15,
+    "n_nopair_f7": 0,
+    "n_tainted_f6": 4,
+    "n_geom_invalid": 1,
+    "n_blank": 0,
+    "n_timing": 1,
+    "n_reached_arith_stage": 10,
+    "n_unreadable_f1": 0,
+    "per_pair": [
+      {
+        "url": "https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Wikipedia%3AContents",
+        "verdict": "INVALID_F6",
+        "ref_file": "w_index.png",
+        "cur_file": "w_index_php_title_Special_CreateAccount_returnto_Wikipedia_3AContents.png"
+      },
+      {
+        "url": "https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Wikipedia%3AContents",
+        "verdict": "INVALID_F6",
+        "ref_file": "w_index.png",
+        "cur_file": "w_index_php_title_Special_UserLogin_returnto_Wikipedia_3AContents.png"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Help:Contents",
+        "ref_file": "wiki_Help_Contents.png",
+        "cur_file": "wiki_Help_Contents.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 876841,
+        "c_bytes": 876841,
+        "r_dim": [
+          1366,
+          3584
+        ],
+        "c_dim": [
+          1366,
+          3584
+        ],
+        "r_load": 6.06,
+        "c_load": 5.66,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3584,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Help:Introduction",
+        "ref_file": "wiki_Help_Introduction.png",
+        "cur_file": "wiki_Help_Introduction.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 260176,
+        "c_bytes": 260176,
+        "r_dim": [
+          1366,
+          2105
+        ],
+        "c_dim": [
+          1366,
+          2105
+        ],
+        "r_load": 5.9,
+        "c_load": 5.56,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2105,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Main_Page",
+        "verdict": "INVALID_F6",
+        "ref_file": "wiki_Main_Page.png",
+        "cur_file": "wiki_Main_Page_bodyContent.png"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+        "ref_file": "wiki_Portal_Current_events.png",
+        "cur_file": "wiki_Portal_Current_events.png",
+        "h_ratio": 1.01,
+        "s_ratio": 1.008,
+        "r_bytes": 4527620,
+        "c_bytes": 4563727,
+        "r_dim": [
+          1366,
+          14910
+        ],
+        "c_dim": [
+          1366,
+          15064
+        ],
+        "r_load": 6.43,
+        "c_load": 6.46,
+        "signals_fired": [],
+        "d_raw": 2276769,
+        "h_used": 14910,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 2,
+        "arith_ok": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:Random",
+        "ref_file": "wiki_Special_Random.png",
+        "cur_file": "wiki_Special_Random.png",
+        "h_ratio": 15.294,
+        "s_ratio": 18.528,
+        "r_bytes": 232315,
+        "c_bytes": 4304425,
+        "r_dim": [
+          1366,
+          995
+        ],
+        "c_dim": [
+          1366,
+          15218
+        ],
+        "r_load": 6.43,
+        "c_load": 8.13,
+        "signals_fired": [
+          "H",
+          "S"
+        ],
+        "verdict": "INVALID_GEOMETRY"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:RecentChanges",
+        "ref_file": "wiki_Special_RecentChanges.png",
+        "cur_file": "wiki_Special_RecentChanges.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 797441,
+        "c_bytes": 797441,
+        "r_dim": [
+          1366,
+          2137
+        ],
+        "c_dim": [
+          1366,
+          2137
+        ],
+        "r_load": 7.05,
+        "c_load": 5.78,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2137,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 376635,
+        "arith_ok": false
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:Search",
+        "ref_file": "wiki_Special_Search.png",
+        "cur_file": "wiki_Special_Search.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 64922,
+        "c_bytes": 64922,
+        "r_dim": [
+          1366,
+          905
+        ],
+        "c_dim": [
+          1366,
+          905
+        ],
+        "r_load": 5.68,
+        "c_load": 5.99,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 905,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 17,
+        "arith_ok": false
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:SpecialPages",
+        "ref_file": "wiki_Special_SpecialPages.png",
+        "cur_file": "wiki_Special_SpecialPages.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 569045,
+        "c_bytes": 569045,
+        "r_dim": [
+          1366,
+          3451
+        ],
+        "c_dim": [
+          1366,
+          3451
+        ],
+        "r_load": 5.91,
+        "c_load": 6.18,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3451,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:About",
+        "ref_file": "wiki_Wikipedia_About.png",
+        "cur_file": "wiki_Wikipedia_About.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 671676,
+        "c_bytes": 671676,
+        "r_dim": [
+          1366,
+          2275
+        ],
+        "c_dim": [
+          1366,
+          2275
+        ],
+        "r_load": 6.02,
+        "c_load": 5.57,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2275,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Community_portal",
+        "ref_file": "wiki_Wikipedia_Community_portal.png",
+        "cur_file": "wiki_Wikipedia_Community_portal.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.001,
+        "r_bytes": 2119483,
+        "c_bytes": 2121059,
+        "r_dim": [
+          1366,
+          8574
+        ],
+        "c_dim": [
+          1366,
+          8574
+        ],
+        "r_load": 8.96,
+        "c_load": 7.45,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 14933,
+        "h_used": 8574,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 8569,
+        "arith_ok": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Contact_us",
+        "ref_file": "wiki_Wikipedia_Contact_us.png",
+        "cur_file": "wiki_Wikipedia_Contact_us.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 341534,
+        "c_bytes": 341534,
+        "r_dim": [
+          1366,
+          1818
+        ],
+        "c_dim": [
+          1366,
+          1818
+        ],
+        "r_load": 5.45,
+        "c_load": 5.47,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1818,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Contents",
+        "verdict": "INVALID_F6",
+        "ref_file": "wiki_Wikipedia_Contents.png",
+        "cur_file": "wiki_Wikipedia_Contents_Culture_and_the_arts.png"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard",
+        "ref_file": "wiki_Wikipedia_File_upload_wizard.png",
+        "cur_file": "wiki_Wikipedia_File_upload_wizard.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 192169,
+        "c_bytes": 192169,
+        "r_dim": [
+          1366,
+          1159
+        ],
+        "c_dim": [
+          1366,
+          1159
+        ],
+        "r_load": 5.37,
+        "c_load": 5.5,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1159,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      }
+    ],
+    "existing_backend_match": {
+      "summary_path": "visual_diffs/wikipedia/visual_diff_summary.json",
+      "overlap": 15,
+      "existing_n": 19
+    },
+    "arith_check": {
+      "n_checked": 10,
+      "n_impossible": 2,
+      "impossible_list": [
+        {
+          "page": "wiki_Special_RecentChanges.png",
+          "d_reported": 376635,
+          "d_raw": 0
+        },
+        {
+          "page": "wiki_Special_Search.png",
+          "d_reported": 17,
+          "d_raw": 0
+        }
+      ]
+    }
+  },
+  {
+    "subject": "wikipedia",
+    "ref": "wikipedia-final-30-Aug-2026(12_56PM)",
+    "cur": "wikipedia-full-30-Aug-2026(1_03PM)",
+    "n_ref": 15,
+    "n_cur": 15,
+    "n_common_url": 15,
+    "n_nopair_f7": 0,
+    "n_tainted_f6": 0,
+    "n_geom_invalid": 1,
+    "n_blank": 0,
+    "n_timing": 2,
+    "n_reached_arith_stage": 14,
+    "n_unreadable_f1": 0,
+    "per_pair": [
+      {
+        "url": "https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Wikipedia%3AContents",
+        "ref_file": "w_index_php_title_Special_CreateAccount_returnto_Wikipedia_3AContents.png",
+        "cur_file": "w_index_php_title_Special_CreateAccount_returnto_Wikipedia_3AContents.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 90069,
+        "c_bytes": 90069,
+        "r_dim": [
+          1366,
+          849
+        ],
+        "c_dim": [
+          1366,
+          849
+        ],
+        "r_load": 8.46,
+        "c_load": 8.35,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 0,
+        "h_used": 849,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Wikipedia%3AContents",
+        "ref_file": "w_index_php_title_Special_UserLogin_returnto_Wikipedia_3AContents.png",
+        "cur_file": "w_index_php_title_Special_UserLogin_returnto_Wikipedia_3AContents.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 81188,
+        "c_bytes": 81195,
+        "r_dim": [
+          1366,
+          877
+        ],
+        "c_dim": [
+          1366,
+          877
+        ],
+        "r_load": 6.63,
+        "c_load": 6.55,
+        "signals_fired": [],
+        "d_raw": 2,
+        "h_used": 877,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Help:Contents",
+        "ref_file": "wiki_Help_Contents.png",
+        "cur_file": "wiki_Help_Contents.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 876841,
+        "c_bytes": 876841,
+        "r_dim": [
+          1366,
+          3584
+        ],
+        "c_dim": [
+          1366,
+          3584
+        ],
+        "r_load": 5.66,
+        "c_load": 6.5,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3584,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Help:Introduction",
+        "ref_file": "wiki_Help_Introduction.png",
+        "cur_file": "wiki_Help_Introduction.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 260176,
+        "c_bytes": 260176,
+        "r_dim": [
+          1366,
+          2105
+        ],
+        "c_dim": [
+          1366,
+          2105
+        ],
+        "r_load": 5.56,
+        "c_load": 6.13,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2105,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Main_Page",
+        "ref_file": "wiki_Main_Page_bodyContent.png",
+        "cur_file": "wiki_Main_Page_bodyContent.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 1433505,
+        "c_bytes": 1433474,
+        "r_dim": [
+          1366,
+          3520
+        ],
+        "c_dim": [
+          1366,
+          3520
+        ],
+        "r_load": 6.95,
+        "c_load": 6.49,
+        "signals_fired": [],
+        "d_raw": 106,
+        "h_used": 3520,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+        "ref_file": "wiki_Portal_Current_events.png",
+        "cur_file": "wiki_Portal_Current_events.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 4563727,
+        "c_bytes": 4564917,
+        "r_dim": [
+          1366,
+          15064
+        ],
+        "c_dim": [
+          1366,
+          15064
+        ],
+        "r_load": 6.46,
+        "c_load": 6.66,
+        "signals_fired": [],
+        "d_raw": 27940,
+        "h_used": 15064,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:Random",
+        "ref_file": "wiki_Special_Random.png",
+        "cur_file": "wiki_Special_Random.png",
+        "h_ratio": 10.74,
+        "s_ratio": 16.513,
+        "r_bytes": 4304425,
+        "c_bytes": 260665,
+        "r_dim": [
+          1366,
+          15218
+        ],
+        "c_dim": [
+          1366,
+          1417
+        ],
+        "r_load": 8.13,
+        "c_load": 6.26,
+        "signals_fired": [
+          "H",
+          "S"
+        ],
+        "verdict": "INVALID_GEOMETRY"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:RecentChanges",
+        "ref_file": "wiki_Special_RecentChanges.png",
+        "cur_file": "wiki_Special_RecentChanges.png",
+        "h_ratio": 1.072,
+        "s_ratio": 1.079,
+        "r_bytes": 797441,
+        "c_bytes": 860745,
+        "r_dim": [
+          1366,
+          2137
+        ],
+        "c_dim": [
+          1366,
+          2291
+        ],
+        "r_load": 5.78,
+        "c_load": 6.22,
+        "signals_fired": [],
+        "d_raw": 476357,
+        "h_used": 2137,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:Search",
+        "ref_file": "wiki_Special_Search.png",
+        "cur_file": "wiki_Special_Search.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.001,
+        "r_bytes": 64922,
+        "c_bytes": 64867,
+        "r_dim": [
+          1366,
+          905
+        ],
+        "c_dim": [
+          1366,
+          905
+        ],
+        "r_load": 5.99,
+        "c_load": 6.26,
+        "signals_fired": [],
+        "d_raw": 17,
+        "h_used": 905,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Special:SpecialPages",
+        "ref_file": "wiki_Special_SpecialPages.png",
+        "cur_file": "wiki_Special_SpecialPages.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 569045,
+        "c_bytes": 569045,
+        "r_dim": [
+          1366,
+          3451
+        ],
+        "c_dim": [
+          1366,
+          3451
+        ],
+        "r_load": 6.18,
+        "c_load": 6.39,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3451,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:About",
+        "ref_file": "wiki_Wikipedia_About.png",
+        "cur_file": "wiki_Wikipedia_About.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 671676,
+        "c_bytes": 671676,
+        "r_dim": [
+          1366,
+          2275
+        ],
+        "c_dim": [
+          1366,
+          2275
+        ],
+        "r_load": 5.57,
+        "c_load": 5.55,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2275,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Community_portal",
+        "ref_file": "wiki_Wikipedia_Community_portal.png",
+        "cur_file": "wiki_Wikipedia_Community_portal.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.001,
+        "r_bytes": 2121059,
+        "c_bytes": 2119104,
+        "r_dim": [
+          1366,
+          8574
+        ],
+        "c_dim": [
+          1366,
+          8574
+        ],
+        "r_load": 7.45,
+        "c_load": 7.83,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 12662,
+        "h_used": 8574,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Contact_us",
+        "ref_file": "wiki_Wikipedia_Contact_us.png",
+        "cur_file": "wiki_Wikipedia_Contact_us.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 341534,
+        "c_bytes": 341534,
+        "r_dim": [
+          1366,
+          1818
+        ],
+        "c_dim": [
+          1366,
+          1818
+        ],
+        "r_load": 5.47,
+        "c_load": 5.47,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1818,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:Contents",
+        "ref_file": "wiki_Wikipedia_Contents_Culture_and_the_arts.png",
+        "cur_file": "wiki_Wikipedia_Contents_Culture_and_the_arts.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 672343,
+        "c_bytes": 672343,
+        "r_dim": [
+          1366,
+          4459
+        ],
+        "c_dim": [
+          1366,
+          4459
+        ],
+        "r_load": 6.31,
+        "c_load": 6.22,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4459,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wikipedia:File_upload_wizard",
+        "ref_file": "wiki_Wikipedia_File_upload_wizard.png",
+        "cur_file": "wiki_Wikipedia_File_upload_wizard.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 192169,
+        "c_bytes": 192169,
+        "r_dim": [
+          1366,
+          1159
+        ],
+        "c_dim": [
+          1366,
+          1159
+        ],
+        "r_load": 5.5,
+        "c_load": 5.39,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1159,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      }
+    ]
+  },
+  {
+    "subject": "python",
+    "ref": "python-30-Aug-2026(12_38PM)",
+    "cur": "python-final-30-Aug-2026(12_49PM)",
+    "n_ref": 14,
+    "n_cur": 14,
+    "n_common_url": 14,
+    "n_nopair_f7": 0,
+    "n_tainted_f6": 2,
+    "n_geom_invalid": 0,
+    "n_blank": 0,
+    "n_timing": 3,
+    "n_reached_arith_stage": 12,
+    "n_unreadable_f1": 0,
+    "per_pair": [
+      {
+        "url": "https://www.python.org",
+        "verdict": "INVALID_F6",
+        "ref_file": "home.png",
+        "cur_file": "home.png"
+      },
+      {
+        "url": "https://www.python.org/about",
+        "verdict": "INVALID_F6",
+        "ref_file": "about.png",
+        "cur_file": "about.png"
+      },
+      {
+        "url": "https://www.python.org/about/apps",
+        "ref_file": "about_apps.png",
+        "cur_file": "about_apps.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 458452,
+        "c_bytes": 458460,
+        "r_dim": [
+          1366,
+          3062
+        ],
+        "c_dim": [
+          1366,
+          3062
+        ],
+        "r_load": 5.87,
+        "c_load": 6.14,
+        "signals_fired": [],
+        "d_raw": 849,
+        "h_used": 3062,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 2849,
+        "arith_ok": false
+      },
+      {
+        "url": "https://www.python.org/about/gettingstarted",
+        "ref_file": "about_gettingstarted.png",
+        "cur_file": "about_gettingstarted.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 426285,
+        "c_bytes": 426285,
+        "r_dim": [
+          1366,
+          2296
+        ],
+        "c_dim": [
+          1366,
+          2296
+        ],
+        "r_load": 5.75,
+        "c_load": 5.91,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2296,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/about/help",
+        "ref_file": "about_help.png",
+        "cur_file": "about_help.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 431269,
+        "c_bytes": 431296,
+        "r_dim": [
+          1366,
+          2476
+        ],
+        "c_dim": [
+          1366,
+          2476
+        ],
+        "r_load": 6.47,
+        "c_load": 5.99,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 3733,
+        "h_used": 2476,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 201,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/about/quotes",
+        "ref_file": "about_quotes.png",
+        "cur_file": "about_quotes.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 707977,
+        "c_bytes": 707962,
+        "r_dim": [
+          1366,
+          3733
+        ],
+        "c_dim": [
+          1366,
+          3733
+        ],
+        "r_load": 5.83,
+        "c_load": 6.04,
+        "signals_fired": [],
+        "d_raw": 1005,
+        "h_used": 3733,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/accounts/login",
+        "ref_file": "accounts_login.png",
+        "cur_file": "accounts_login.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 167535,
+        "c_bytes": 167503,
+        "r_dim": [
+          1366,
+          1290
+        ],
+        "c_dim": [
+          1366,
+          1290
+        ],
+        "r_load": 5.93,
+        "c_load": 6.55,
+        "signals_fired": [],
+        "d_raw": 9888,
+        "h_used": 1290,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 3314,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/accounts/signup",
+        "ref_file": "accounts_signup.png",
+        "cur_file": "accounts_signup.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.004,
+        "r_bytes": 179517,
+        "c_bytes": 180197,
+        "r_dim": [
+          1366,
+          1461
+        ],
+        "c_dim": [
+          1366,
+          1461
+        ],
+        "r_load": 5.79,
+        "c_load": 5.78,
+        "signals_fired": [],
+        "d_raw": 11407,
+        "h_used": 1461,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/community",
+        "ref_file": "community.png",
+        "cur_file": "community.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 461407,
+        "c_bytes": 461421,
+        "r_dim": [
+          1366,
+          1971
+        ],
+        "c_dim": [
+          1366,
+          1971
+        ],
+        "r_load": 5.46,
+        "c_load": 5.34,
+        "signals_fired": [],
+        "d_raw": 836,
+        "h_used": 1971,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 101,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/community/irc",
+        "ref_file": "community_irc.png",
+        "cur_file": "community_irc.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 297033,
+        "c_bytes": 297033,
+        "r_dim": [
+          1366,
+          1900
+        ],
+        "c_dim": [
+          1366,
+          1900
+        ],
+        "r_load": 5.36,
+        "c_load": 5.75,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1900,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/downloads",
+        "ref_file": "downloads.png",
+        "cur_file": "downloads.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.002,
+        "r_bytes": 947169,
+        "c_bytes": 945080,
+        "r_dim": [
+          1366,
+          5074
+        ],
+        "c_dim": [
+          1366,
+          5074
+        ],
+        "r_load": 6.61,
+        "c_load": 6.48,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 1130646,
+        "h_used": 5074,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 474,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/downloads/source",
+        "ref_file": "downloads_source.png",
+        "cur_file": "downloads_source.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 4771048,
+        "c_bytes": 4770906,
+        "r_dim": [
+          1366,
+          23854
+        ],
+        "c_dim": [
+          1366,
+          23854
+        ],
+        "r_load": 6.95,
+        "c_load": 7.21,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 14919,
+        "h_used": 23854,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 8445,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/jobs",
+        "ref_file": "jobs.png",
+        "cur_file": "jobs.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 947022,
+        "c_bytes": 946992,
+        "r_dim": [
+          1366,
+          4906
+        ],
+        "c_dim": [
+          1366,
+          4906
+        ],
+        "r_load": 6.27,
+        "c_load": 5.53,
+        "signals_fired": [],
+        "d_raw": 9214,
+        "h_used": 4906,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 0,
+        "arith_ok": true
+      },
+      {
+        "url": "https://www.python.org/psf",
+        "ref_file": "psf.png",
+        "cur_file": "psf.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 379997,
+        "c_bytes": 379976,
+        "r_dim": [
+          1366,
+          2095
+        ],
+        "c_dim": [
+          1366,
+          2095
+        ],
+        "r_load": 5.87,
+        "c_load": 5.42,
+        "signals_fired": [],
+        "d_raw": 2742,
+        "h_used": 2095,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH",
+        "d_reported": 1523,
+        "arith_ok": true
+      }
+    ],
+    "existing_backend_match": {
+      "summary_path": "visual_diffs/python/visual_diff_summary.json",
+      "overlap": 14,
+      "existing_n": 18
+    },
+    "arith_check": {
+      "n_checked": 12,
+      "n_impossible": 1,
+      "impossible_list": [
+        {
+          "page": "about_apps.png",
+          "d_reported": 2849,
+          "d_raw": 849
+        }
+      ]
+    }
+  },
+  {
+    "subject": "python",
+    "ref": "python-final-30-Aug-2026(12_49PM)",
+    "cur": "python-full-30-Aug-2026(1_01PM)",
+    "n_ref": 14,
+    "n_cur": 14,
+    "n_common_url": 14,
+    "n_nopair_f7": 0,
+    "n_tainted_f6": 2,
+    "n_geom_invalid": 0,
+    "n_blank": 0,
+    "n_timing": 1,
+    "n_reached_arith_stage": 12,
+    "n_unreadable_f1": 0,
+    "per_pair": [
+      {
+        "url": "https://www.python.org",
+        "verdict": "INVALID_F6",
+        "ref_file": "home.png",
+        "cur_file": "home_2.png"
+      },
+      {
+        "url": "https://www.python.org/about",
+        "verdict": "INVALID_F6",
+        "ref_file": "about.png",
+        "cur_file": "about_2.png"
+      },
+      {
+        "url": "https://www.python.org/about/apps",
+        "ref_file": "about_apps.png",
+        "cur_file": "about_apps.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 458460,
+        "c_bytes": 458442,
+        "r_dim": [
+          1366,
+          3062
+        ],
+        "c_dim": [
+          1366,
+          3062
+        ],
+        "r_load": 6.14,
+        "c_load": 5.99,
+        "signals_fired": [],
+        "d_raw": 3883,
+        "h_used": 3062,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/about/gettingstarted",
+        "ref_file": "about_gettingstarted.png",
+        "cur_file": "about_gettingstarted.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 426285,
+        "c_bytes": 426285,
+        "r_dim": [
+          1366,
+          2296
+        ],
+        "c_dim": [
+          1366,
+          2296
+        ],
+        "r_load": 5.91,
+        "c_load": 6.18,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 2296,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/about/help",
+        "ref_file": "about_help.png",
+        "cur_file": "about_help.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 431296,
+        "c_bytes": 431257,
+        "r_dim": [
+          1366,
+          2476
+        ],
+        "c_dim": [
+          1366,
+          2476
+        ],
+        "r_load": 5.99,
+        "c_load": 6.5,
+        "signals_fired": [],
+        "d_raw": 1577,
+        "h_used": 2476,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/about/quotes",
+        "ref_file": "about_quotes.png",
+        "cur_file": "about_quotes.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 707962,
+        "c_bytes": 707962,
+        "r_dim": [
+          1366,
+          3733
+        ],
+        "c_dim": [
+          1366,
+          3733
+        ],
+        "r_load": 6.04,
+        "c_load": 5.92,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 3733,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/accounts/login",
+        "ref_file": "accounts_login.png",
+        "cur_file": "accounts_login.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 167503,
+        "c_bytes": 167512,
+        "r_dim": [
+          1366,
+          1290
+        ],
+        "c_dim": [
+          1366,
+          1290
+        ],
+        "r_load": 6.55,
+        "c_load": 5.78,
+        "signals_fired": [],
+        "d_raw": 4314,
+        "h_used": 1290,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/accounts/signup",
+        "ref_file": "accounts_signup.png",
+        "cur_file": "accounts_signup.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.004,
+        "r_bytes": 180197,
+        "c_bytes": 179550,
+        "r_dim": [
+          1366,
+          1461
+        ],
+        "c_dim": [
+          1366,
+          1461
+        ],
+        "r_load": 5.78,
+        "c_load": 5.76,
+        "signals_fired": [],
+        "d_raw": 10721,
+        "h_used": 1461,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/community",
+        "ref_file": "community.png",
+        "cur_file": "community.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 461421,
+        "c_bytes": 461407,
+        "r_dim": [
+          1366,
+          1971
+        ],
+        "c_dim": [
+          1366,
+          1971
+        ],
+        "r_load": 5.34,
+        "c_load": 5.41,
+        "signals_fired": [],
+        "d_raw": 836,
+        "h_used": 1971,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/community/irc",
+        "ref_file": "community_irc.png",
+        "cur_file": "community_irc.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 297033,
+        "c_bytes": 297033,
+        "r_dim": [
+          1366,
+          1900
+        ],
+        "c_dim": [
+          1366,
+          1900
+        ],
+        "r_load": 5.75,
+        "c_load": 5.37,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 1900,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/downloads",
+        "ref_file": "downloads.png",
+        "cur_file": "downloads.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 945080,
+        "c_bytes": 945102,
+        "r_dim": [
+          1366,
+          5074
+        ],
+        "c_dim": [
+          1366,
+          5074
+        ],
+        "r_load": 6.48,
+        "c_load": 6.18,
+        "signals_fired": [],
+        "d_raw": 1662,
+        "h_used": 5074,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/downloads/source",
+        "ref_file": "downloads_source.png",
+        "cur_file": "downloads_source.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 4770906,
+        "c_bytes": 4770970,
+        "r_dim": [
+          1366,
+          23854
+        ],
+        "c_dim": [
+          1366,
+          23854
+        ],
+        "r_load": 7.21,
+        "c_load": 7.11,
+        "signals_fired": [
+          "T"
+        ],
+        "d_raw": 11640,
+        "h_used": 23854,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/jobs",
+        "ref_file": "jobs.png",
+        "cur_file": "jobs.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 946992,
+        "c_bytes": 946992,
+        "r_dim": [
+          1366,
+          4906
+        ],
+        "c_dim": [
+          1366,
+          4906
+        ],
+        "r_load": 5.53,
+        "c_load": 5.63,
+        "signals_fired": [],
+        "d_raw": 0,
+        "h_used": 4906,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      },
+      {
+        "url": "https://www.python.org/psf",
+        "ref_file": "psf.png",
+        "cur_file": "psf.png",
+        "h_ratio": 1.0,
+        "s_ratio": 1.0,
+        "r_bytes": 379976,
+        "c_bytes": 379995,
+        "r_dim": [
+          1366,
+          2095
+        ],
+        "c_dim": [
+          1366,
+          2095
+        ],
+        "r_load": 5.42,
+        "c_load": 5.47,
+        "signals_fired": [],
+        "d_raw": 2742,
+        "h_used": 2095,
+        "w_used": 1366,
+        "verdict": "VALID_REACHED_ARITH"
+      }
+    ]
+  }
+]

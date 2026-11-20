@@ -1,0 +1,653 @@
+[
+  {
+    "site": "python",
+    "page": "about.png",
+    "diffPixels": 1837,
+    "diffPercent": "0.055",
+    "diffPath": "../results/visual_diffs/python/diff_about.png"
+  },
+  {
+    "site": "python",
+    "page": "about_apps.png",
+    "diffPixels": 2849,
+    "diffPercent": "0.068",
+    "diffPath": "../results/visual_diffs/python/diff_about_apps.png"
+  },
+  {
+    "site": "python",
+    "page": "about_gettingstarted.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_about_gettingstarted.png"
+  },
+  {
+    "site": "python",
+    "page": "about_help.png",
+    "diffPixels": 201,
+    "diffPercent": "0.006",
+    "diffPath": "../results/visual_diffs/python/diff_about_help.png"
+  },
+  {
+    "site": "python",
+    "page": "about_quotes.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_about_quotes.png"
+  },
+  {
+    "site": "python",
+    "page": "accounts_login.png",
+    "diffPixels": 3314,
+    "diffPercent": "0.188",
+    "diffPath": "../results/visual_diffs/python/diff_accounts_login.png"
+  },
+  {
+    "site": "python",
+    "page": "accounts_signup.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_accounts_signup.png"
+  },
+  {
+    "site": "python",
+    "page": "community.png",
+    "diffPixels": 101,
+    "diffPercent": "0.004",
+    "diffPath": "../results/visual_diffs/python/diff_community.png"
+  },
+  {
+    "site": "python",
+    "page": "community_irc.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_community_irc.png"
+  },
+  {
+    "site": "python",
+    "page": "content.png",
+    "diffPixels": 671631,
+    "diffPercent": "19.866",
+    "diffPath": "../results/visual_diffs/python/diff_content.png"
+  },
+  {
+    "site": "python",
+    "page": "downloads.png",
+    "diffPixels": 474,
+    "diffPercent": "0.007",
+    "diffPath": "../results/visual_diffs/python/diff_downloads.png"
+  },
+  {
+    "site": "python",
+    "page": "downloads_source.png",
+    "diffPixels": 8445,
+    "diffPercent": "0.026",
+    "diffPath": "../results/visual_diffs/python/diff_downloads_source.png"
+  },
+  {
+    "site": "python",
+    "page": "home.png",
+    "diffPixels": 671633,
+    "diffPercent": "19.866",
+    "diffPath": "../results/visual_diffs/python/diff_home.png"
+  },
+  {
+    "site": "python",
+    "page": "jobs.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/python/diff_jobs.png"
+  },
+  {
+    "site": "python",
+    "page": "psf.png",
+    "diffPixels": 1523,
+    "diffPercent": "0.053",
+    "diffPath": "../results/visual_diffs/python/diff_psf.png"
+  },
+  {
+    "site": "python",
+    "page": "python-network.png",
+    "diffPixels": 671300,
+    "diffPercent": "19.856",
+    "diffPath": "../results/visual_diffs/python/diff_python-network.png"
+  },
+  {
+    "site": "python",
+    "page": "site-map.png",
+    "diffPixels": 670106,
+    "diffPercent": "19.821",
+    "diffPath": "../results/visual_diffs/python/diff_site-map.png"
+  },
+  {
+    "site": "python",
+    "page": "top.png",
+    "diffPixels": 671237,
+    "diffPercent": "19.854",
+    "diffPath": "../results/visual_diffs/python/diff_top.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "about.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_about.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "blog.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_blog.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "docs_latest_api.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_docs_latest_api.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "en.png",
+    "diffPixels": 8195,
+    "diffPercent": "0.593",
+    "diffPath": "../results/visual_diffs/nodejs/diff_en.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "en_download.png",
+    "diffPixels": 10317,
+    "diffPercent": "0.540",
+    "diffPath": "../results/visual_diffs/nodejs/diff_en_download.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "home.png",
+    "diffPixels": 1201,
+    "diffPercent": "0.087",
+    "diffPath": "../results/visual_diffs/nodejs/diff_home.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_an-introduction-to-the-npm-package-manager.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_an-introduction-to-the-npm-package-manager.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_debugging.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_debugging.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_differences-between-nodejs-and-the-browser.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_differences-between-nodejs-and-the-browser.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_ecmascript-2015-es6-and-beyond.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_ecmascript-2015-es6-and-beyond.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_fetch.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_fetch.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_how-much-javascript-do-you-need-to-know-to-use-nodejs.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_how-much-javascript-do-you-need-to-know-to-use-nodejs.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_introduction-to-nodejs.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_introduction-to-nodejs.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_nodejs-the-difference-between-development-and-production.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_nodejs-the-difference-between-development-and-production.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_nodejs-with-webassembly.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_nodejs-with-webassembly.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_profiling.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_profiling.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_the-v8-javascript-engine.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_the-v8-javascript-engine.png"
+  },
+  {
+    "site": "nodejs",
+    "page": "learn_getting-started_websocket.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/nodejs/diff_learn_getting-started_websocket.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US.png",
+    "diffPixels": 105547,
+    "diffPercent": "2.461",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS_Reference_At-rules.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS_Reference_At-rules.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS_Reference_Properties.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS_Reference_Properties.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS_Reference_Selectors.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS_Reference_Selectors.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_CSS_Reference_Values.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_CSS_Reference_Values.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Guides.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Guides.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Guides_Cheatsheet.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Guides_Cheatsheet.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Guides_Date_and_time_formats.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Guides_Date_and_time_formats.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Guides_Responsive_images.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Guides_Responsive_images.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Reference.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Reference.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Reference_Attributes.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Reference_Attributes.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Reference_Elements.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Reference_Elements.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_HTML_Reference_Global_attributes.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_HTML_Reference_Global_attributes.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_MathML.png",
+    "diffPixels": 73579,
+    "diffPercent": "1.108",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_MathML.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_SVG.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_SVG.png"
+  },
+  {
+    "site": "mdn",
+    "page": "en-US_docs_Web_XML.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/mdn/diff_en-US_docs_Web_XML.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "w_index_php_title_Special_CreateAccount_returnto_Wikipedia_3AContents.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_w_index_php_title_Special_CreateAccount_returnto_Wikipedia_3AContents.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "w_index_php_title_Special_UserLogin_returnto_Wikipedia_3AContents.png",
+    "diffPixels": 1,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_w_index_php_title_Special_UserLogin_returnto_Wikipedia_3AContents.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Help_Contents.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Help_Contents.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Help_Introduction.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Help_Introduction.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Main_Page.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Main_Page.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Main_Page_bodyContent.png",
+    "diffPixels": 1,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Main_Page_bodyContent.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Portal_Current_events.png",
+    "diffPixels": 2,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Portal_Current_events.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Special_Random.png",
+    "diffPixels": 293799,
+    "diffPercent": "15.179",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Special_Random.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Special_RecentChanges.png",
+    "diffPixels": 376635,
+    "diffPercent": "12.902",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Special_RecentChanges.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Special_Search.png",
+    "diffPixels": 17,
+    "diffPercent": "0.001",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Special_Search.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Special_SpecialPages.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Special_SpecialPages.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_About.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_About.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Community_portal.png",
+    "diffPixels": 8569,
+    "diffPercent": "0.073",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Community_portal.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contact_us.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contact_us.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contents.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contents.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contents_Browse_by_subject.png",
+    "diffPixels": 5719,
+    "diffPercent": "0.094",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contents_Browse_by_subject.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contents_Culture_and_the_arts.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contents_Culture_and_the_arts.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_Contents_bodyContent.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_Contents_bodyContent.png"
+  },
+  {
+    "site": "wikipedia",
+    "page": "wiki_Wikipedia_File_upload_wizard.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/wikipedia/diff_wiki_Wikipedia_File_upload_wizard.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_main-content.png",
+    "diffPixels": 10204,
+    "diffPercent": "0.334",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_main-content.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_onboarding_getting-started-with-github-enterprise-cloud.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_onboarding_getting-started-with-github-enterprise-cloud.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_onboarding_getting-started-with-github-team.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_onboarding_getting-started-with-github-team.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_onboarding_getting-started-with-your-github-account.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_onboarding_getting-started-with-your-github-account.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_connecting-to-your-code-locally.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_connecting-to-your-code-locally.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_deploying-your-website-automatically.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_deploying-your-website-automatically.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_git-and-github-learning-resources.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_git-and-github-learning-resources.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_planning-your-work.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_planning-your-work.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_reviewing-your-proposed-changes.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_reviewing-your-proposed-changes.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_what-is-github.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_what-is-github.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_writing-and-storing-your-code.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_writing-and-storing-your-code.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_using-github_connecting-to-github.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_using-github_connecting-to-github.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_using-github_github-flow.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_using-github_github-flow.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_using-github_hello-world.png",
+    "diffPixels": 116,
+    "diffPercent": "0.001",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_using-github_hello-world.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_main-content.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_main-content.png"
+  }
+]

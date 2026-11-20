@@ -1,0 +1,1010 @@
+[
+  {
+    "page": "forecast_air-quality_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "width": 1366,
+    "height": 2039,
+    "diffPixels": 120600,
+    "diffPercent": 4.329915117866321,
+    "mse": 1022.8701569860281,
+    "psnr": 18.032598529459815,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\forecast_air-quality_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\forecast_air-quality_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 2039,
+        "area": 2785274
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2039,
+          "area": 2785274
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2039,
+          "area": 2785274
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.7321979425318367,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -7.2957848837209305,
+          "dy": -8.678779069767442,
+          "count": 2752
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\forecast_air-quality_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\forecast_air-quality_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_rawdiff.png"
+  },
+  {
+    "page": "forecast_allergy_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "width": 1366,
+    "height": 2596,
+    "diffPixels": 2648,
+    "diffPercent": 0.07467282698689504,
+    "mse": 23.62688971715886,
+    "psnr": 34.39673806716732,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\forecast_allergy_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\forecast_allergy_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 2596,
+        "area": 3546136
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2596,
+          "area": 3546136
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2596,
+          "area": 3546136
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.996032028912113,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -6.551900170164492,
+          "dy": -5.523539421440726,
+          "count": 3526
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\forecast_allergy_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\forecast_allergy_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_rawdiff.png"
+  },
+  {
+    "page": "forecast_cold-flu_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "width": 1366,
+    "height": 2468,
+    "diffPixels": 0,
+    "diffPercent": 0,
+    "mse": 0.027411540663392856,
+    "psnr": 63.751469151567136,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\forecast_cold-flu_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\forecast_cold-flu_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 2468,
+        "area": 3371288
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2468,
+          "area": 3371288
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2468,
+          "area": 3371288
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.9999904708898482,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -6.457066189624329,
+          "dy": -5.756708407871199,
+          "count": 3354
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\forecast_cold-flu_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\forecast_cold-flu_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_rawdiff.png"
+  },
+  {
+    "page": "health_skin-health.png",
+    "width": 1366,
+    "height": 4859,
+    "diffPixels": 291460,
+    "diffPercent": 4.391181237696602,
+    "mse": 1128.599676842841,
+    "psnr": 17.60540439287415,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\health_skin-health.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\health_skin-health.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 4859,
+        "area": 6637394
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4859,
+          "area": 6637394
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4859,
+          "area": 6637394
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.5258043207445023,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -8.718176254589963,
+          "dy": -8.890452876376989,
+          "count": 6536
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\health_skin-health_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\health_skin-health_rawdiff.png"
+  },
+  {
+    "page": "home-garden.png",
+    "width": 1366,
+    "height": 4876,
+    "diffPixels": 220579,
+    "diffPercent": 3.3116906904706713,
+    "mse": 768.6264245904036,
+    "psnr": 19.273650498827898,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\home-garden.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\home-garden.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 4876,
+        "area": 6660616
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4876,
+          "area": 6660616
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4876,
+          "area": 6660616
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.656044743951844,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -9.05061559507524,
+          "dy": -8.987384100927192,
+          "count": 6579
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\home-garden_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\home-garden_rawdiff.png"
+  },
+  {
+    "page": "home-garden_recipes.png",
+    "width": 1366,
+    "height": 5134,
+    "diffPixels": 474414,
+    "diffPercent": 6.7647372524684,
+    "mse": 1735.259385863014,
+    "psnr": 15.737159587271016,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\home-garden_recipes.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\home-garden_recipes.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 5134,
+        "area": 7013044
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5134,
+          "area": 7013044
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5134,
+          "area": 7013044
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.282803252544668,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -9.548461649573884,
+          "dy": -9.48952766141846,
+          "count": 6923
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\home-garden_recipes_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\home-garden_recipes_rawdiff.png"
+  },
+  {
+    "page": "home.png",
+    "width": 1366,
+    "height": 4755,
+    "diffPixels": 1319018,
+    "diffPercent": 20.30717453924589,
+    "mse": 4223.954266325521,
+    "psnr": 11.873611535178146,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\home.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\home.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 4755,
+        "area": 6495330
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4755,
+          "area": 6495330
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4755,
+          "area": 6495330
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.5717120797576438,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -7.083502419228968,
+          "dy": -6.455439363196504,
+          "count": 6407
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\home_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\home_rawdiff.png"
+  },
+  {
+    "page": "pets.png",
+    "width": 1366,
+    "height": 5074,
+    "diffPixels": 480329,
+    "diffPercent": 6.930070390143879,
+    "mse": 1932.9408891537855,
+    "psnr": 15.268617877016723,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\pets.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\pets.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 5074,
+        "area": 6931084
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5074,
+          "area": 6931084
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5074,
+          "area": 6931084
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.1965854823193478,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -9.275413192920873,
+          "dy": -9.239139973672664,
+          "count": 6837
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\pets_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\pets_rawdiff.png"
+  },
+  {
+    "page": "safety_index.png",
+    "width": 1366,
+    "height": 2514,
+    "diffPixels": 236766,
+    "diffPercent": 6.894509342120436,
+    "mse": 1383.7214598969515,
+    "psnr": 16.720316844785774,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\safety_index.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\safety_index.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 2514,
+        "area": 3434124
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2514,
+          "area": 3434124
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2514,
+          "area": 3434124
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.7882533741946294,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -6.200471003826906,
+          "dy": -5.889902855460701,
+          "count": 3397
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\safety_index_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\safety_index_rawdiff.png"
+  },
+  {
+    "page": "science_space.png",
+    "width": 1366,
+    "height": 5079,
+    "diffPixels": 370498,
+    "diffPercent": 5.340193032084284,
+    "mse": 1464.8135357659014,
+    "psnr": 16.47298016411191,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\science_space.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\science_space.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 5079,
+        "area": 6937914
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5079,
+          "area": 6937914
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5079,
+          "area": 6937914
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.30548522754894436,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -8.95480473892058,
+          "dy": -9.796109404709668,
+          "count": 6837
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\science_space_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\science_space_rawdiff.png"
+  },
+  {
+    "page": "storms_hurricane-central.png",
+    "width": 1366,
+    "height": 3716,
+    "diffPixels": 581101,
+    "diffPercent": 11.447883947694825,
+    "mse": 2205.736575824444,
+    "psnr": 14.695267160896709,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\storms_hurricane-central.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\storms_hurricane-central.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 3716,
+        "area": 5076056
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 3716,
+          "area": 5076056
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 3716,
+          "area": 5076056
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.8328655787872628,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -8.338501291989663,
+          "dy": -8.023852116875373,
+          "count": 5031
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\storms_hurricane-central_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\storms_hurricane-central_rawdiff.png"
+  },
+  {
+    "page": "storms_tornado-central.png",
+    "width": 1366,
+    "height": 2970,
+    "diffPixels": 356593,
+    "diffPercent": 8.789530246338446,
+    "mse": 1640.3820043628411,
+    "psnr": 15.981353646079771,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\storms_tornado-central.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\storms_tornado-central.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 2970,
+        "area": 4057020
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2970,
+          "area": 4057020
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 2970,
+          "area": 4057020
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.6012438672885512,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -8.599149787446862,
+          "dy": -8.264066016504126,
+          "count": 3999
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\storms_tornado-central_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\storms_tornado-central_rawdiff.png"
+  },
+  {
+    "page": "travel.png",
+    "width": 1366,
+    "height": 4857,
+    "diffPixels": 460338,
+    "diffPercent": 6.938379076432229,
+    "mse": 2053.8730649953695,
+    "psnr": 15.0050676137079,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\travel.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\travel.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 4857,
+        "area": 6634662
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4857,
+          "area": 6634662
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4857,
+          "area": 6634662
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.2240673966467154,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -9.372093023255815,
+          "dy": -9.446144430844553,
+          "count": 6536
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\travel_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\travel_rawdiff.png"
+  },
+  {
+    "page": "weather_hourbyhour_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "width": 1366,
+    "height": 6790,
+    "diffPixels": 890565,
+    "diffPercent": 9.601634045416025,
+    "mse": 2184.870485065584,
+    "psnr": 14.73654662942904,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_hourbyhour_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\weather_hourbyhour_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 6790,
+        "area": 9275140
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 6790,
+          "area": 9275140
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 6790,
+          "area": 9275140
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.5094198445350692,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -7.780762091931433,
+          "dy": -8.69003166284529,
+          "count": 9159
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_hourbyhour_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_hourbyhour_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_rawdiff.png"
+  },
+  {
+    "page": "weather_monthly_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "width": 1366,
+    "height": 4201,
+    "diffPixels": 207491,
+    "diffPercent": 3.6157290863257474,
+    "mse": 653.3889204071892,
+    "psnr": 19.979085950486883,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_monthly_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\weather_monthly_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 4201,
+        "area": 5738566
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4201,
+          "area": 5738566
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 4201,
+          "area": 5738566
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.845253618757449,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -6.84954193093728,
+          "dy": -5.8062015503875966,
+          "count": 5676
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_monthly_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_monthly_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_rawdiff.png"
+  },
+  {
+    "page": "weather_radar_interactive_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "width": 1366,
+    "height": 794,
+    "diffPixels": 96931,
+    "diffPercent": 8.936994515970806,
+    "mse": 1023.1919885896133,
+    "psnr": 18.031232298321687,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_radar_interactive_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\weather_radar_interactive_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 794,
+        "area": 1084604
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 794,
+          "area": 1084604
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 794,
+          "area": 1084604
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.7851825422162322,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -3.738604651162791,
+          "dy": -2.8390697674418606,
+          "count": 1075
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_radar_interactive_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_radar_interactive_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_rawdiff.png"
+  },
+  {
+    "page": "weather_tenday_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "width": 1366,
+    "height": 5122,
+    "diffPixels": 757944,
+    "diffPercent": 10.832952675079452,
+    "mse": 3027.9989326593404,
+    "psnr": 13.319246431244988,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_tenday_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\weather_tenday_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 5122,
+        "area": 6996652
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5122,
+          "area": 6996652
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5122,
+          "area": 6996652
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.08857366322679926,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -11.606528961432906,
+          "dy": -11.804131157012856,
+          "count": 6923
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_tenday_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_tenday_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_rawdiff.png"
+  },
+  {
+    "page": "weather_today_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "width": 1366,
+    "height": 5936,
+    "diffPixels": 445032,
+    "diffPercent": 5.488411282079615,
+    "mse": 884.3799762934523,
+    "psnr": 18.664414599369323,
+    "ssim": null,
+    "lpips": null,
+    "oldFile": "E:\\website-crawler-research\\results\\12-Nov-2025(11_52PM)\\screenshots\\weather_today_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "newFile": "E:\\website-crawler-research\\results\\13-Nov-2025(11_18AM)\\screenshots\\weather_today_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87.png",
+    "regions": [
+      {
+        "x": 0,
+        "y": 0,
+        "w": 1366,
+        "h": 5936,
+        "area": 8108576
+      }
+    ],
+    "matches": [
+      {
+        "type": "moved",
+        "old": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5936,
+          "area": 8108576
+        },
+        "new": {
+          "x": 0,
+          "y": 0,
+          "w": 1366,
+          "h": 5936,
+          "area": 8108576
+        },
+        "iou": 1,
+        "bestMatch": {
+          "score": 0.8435315615600231,
+          "dx": 0,
+          "dy": 0,
+          "x": 0,
+          "y": 0
+        },
+        "motion": {
+          "dx": -6.993748437109278,
+          "dy": -6.932233058264566,
+          "count": 7998
+        }
+      }
+    ],
+    "annotated": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_today_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_annotated.png",
+    "diffImage": "E:\\website-crawler-research\\results\\visual_diffs_super\\weather_today_l_6124ec38b08595086a8c9ef88b7308e9fc01ebf71755a5d24b5147e0fa723a87_rawdiff.png"
+  }
+]

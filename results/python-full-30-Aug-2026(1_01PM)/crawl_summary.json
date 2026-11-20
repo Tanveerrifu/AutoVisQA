@@ -1,0 +1,9 @@
+{
+    "total_pages": 20,
+    "average_load_time": 5.93,
+    "slowest_page": 7.64,
+    "fastest_page": 5.37,
+    "chart_path": "/Users/tanvir/Documents/AutoVisQA-main/results/charts/load_time_30-Aug-2026(01_11PM).png",
+    "csv_path": "/Users/tanvir/Documents/AutoVisQA-main/results/python-full-30-Aug-2026(1_01PM)/crawl_metrics.csv",
+    "slowest_pages_path": "/Users/tanvir/Documents/AutoVisQA-main/results/python-full-30-Aug-2026(1_01PM)/top_slowest_pages.csv"
+}

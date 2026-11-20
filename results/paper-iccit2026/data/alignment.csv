@@ -1,0 +1,6 @@
+site,run1_files,run2_files,common,only_run2,gap_min,n_urls1,mean_load1,n_urls2,mean_load2
+python,14,18,14,4,11.2,20,5.93,20,5.91
+nodejs,19,20,19,1,11.2,20,5.81,20,5.96
+mdn,18,20,18,2,11.2,20,5.77,20,5.88
+wikipedia,14,19,13,6,11.2,20,6.31,20,6.36
+github-docs,17,19,17,2,10.9,20,5.97,20,6.0

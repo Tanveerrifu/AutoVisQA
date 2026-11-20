@@ -1,0 +1,162 @@
+[
+  {
+    "url": "https://nodejs.org/en",
+    "depth": 0,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/en.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/en.png",
+    "timeTaken": "6.28",
+    "timestamp": "2026-08-30T06:40:55.776Z"
+  },
+  {
+    "url": "https://nodejs.org/en#main",
+    "depth": 1,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/en.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/en.png",
+    "timeTaken": "5.72",
+    "timestamp": "2026-08-30T06:41:01.581Z"
+  },
+  {
+    "url": "https://nodejs.org/learn",
+    "depth": 2,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn.png",
+    "timeTaken": "6.34",
+    "timestamp": "2026-08-30T06:41:07.978Z"
+  },
+  {
+    "url": "https://nodejs.org/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/home.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/home.png",
+    "timeTaken": "5.68",
+    "timestamp": "2026-08-30T06:41:13.714Z"
+  },
+  {
+    "url": "https://nodejs.org/about",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/about.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/about.png",
+    "timeTaken": "5.50",
+    "timestamp": "2026-08-30T06:41:19.277Z"
+  },
+  {
+    "url": "https://nodejs.org/en/download",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/en_download.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/en_download.png",
+    "timeTaken": "5.52",
+    "timestamp": "2026-08-30T06:41:24.851Z"
+  },
+  {
+    "url": "https://nodejs.org/blog",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/blog.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/blog.png",
+    "timeTaken": "6.20",
+    "timestamp": "2026-08-30T06:41:31.236Z"
+  },
+  {
+    "url": "https://nodejs.org/docs/latest/api/",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/docs_latest_api.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/docs_latest_api.png",
+    "timeTaken": "5.39",
+    "timestamp": "2026-08-30T06:41:36.796Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/introduction-to-nodejs",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_introduction-to-nodejs.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_introduction-to-nodejs.png",
+    "timeTaken": "5.92",
+    "timestamp": "2026-08-30T06:41:42.807Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/how-much-javascript-do-you-need-to-know-to-use-nodejs",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_how-much-javascript-do-you-need-to-know-to-use-nodejs.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_how-much-javascript-do-you-need-to-know-to-use-nodejs.png",
+    "timeTaken": "5.80",
+    "timestamp": "2026-08-30T06:41:48.683Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/differences-between-nodejs-and-the-browser",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_differences-between-nodejs-and-the-browser.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_differences-between-nodejs-and-the-browser.png",
+    "timeTaken": "5.73",
+    "timestamp": "2026-08-30T06:41:54.471Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/the-v8-javascript-engine",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_the-v8-javascript-engine.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_the-v8-javascript-engine.png",
+    "timeTaken": "5.71",
+    "timestamp": "2026-08-30T06:42:00.241Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/an-introduction-to-the-npm-package-manager",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_an-introduction-to-the-npm-package-manager.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_an-introduction-to-the-npm-package-manager.png",
+    "timeTaken": "5.81",
+    "timestamp": "2026-08-30T06:42:06.113Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/ecmascript-2015-es6-and-beyond",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_ecmascript-2015-es6-and-beyond.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_ecmascript-2015-es6-and-beyond.png",
+    "timeTaken": "5.68",
+    "timestamp": "2026-08-30T06:42:11.861Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/debugging",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_debugging.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_debugging.png",
+    "timeTaken": "5.85",
+    "timestamp": "2026-08-30T06:42:17.767Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/fetch",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_fetch.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_fetch.png",
+    "timeTaken": "5.84",
+    "timestamp": "2026-08-30T06:42:23.674Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/websocket",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_websocket.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_websocket.png",
+    "timeTaken": "5.79",
+    "timestamp": "2026-08-30T06:42:29.531Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/nodejs-the-difference-between-development-and-production",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_nodejs-the-difference-between-development-and-production.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_nodejs-the-difference-between-development-and-production.png",
+    "timeTaken": "5.70",
+    "timestamp": "2026-08-30T06:42:35.297Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/profiling",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_profiling.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_profiling.png",
+    "timeTaken": "6.01",
+    "timestamp": "2026-08-30T06:42:41.363Z"
+  },
+  {
+    "url": "https://nodejs.org/learn/getting-started/nodejs-with-webassembly",
+    "depth": 3,
+    "pdfPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/pdfs/learn_getting-started_nodejs-with-webassembly.pdf",
+    "screenshotPath": "/Users/tanvir/Documents/AutoVisQA-main/results/nodejs-30-Aug-2026(12_40PM)/screenshots/learn_getting-started_nodejs-with-webassembly.png",
+    "timeTaken": "5.74",
+    "timestamp": "2026-08-30T06:42:47.151Z"
+  }
+]

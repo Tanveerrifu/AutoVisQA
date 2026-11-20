@@ -1,0 +1,135 @@
+[
+  {
+    "site": "github-docs",
+    "page": "en.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_main-content.png",
+    "diffPixels": 10204,
+    "diffPercent": "0.334",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_main-content.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_onboarding_getting-started-with-github-enterprise-cloud.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_onboarding_getting-started-with-github-enterprise-cloud.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_onboarding_getting-started-with-github-team.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_onboarding_getting-started-with-github-team.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_onboarding_getting-started-with-the-github-enterprise-cloud-trial.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_onboarding_getting-started-with-your-github-account.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_onboarding_getting-started-with-your-github-account.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_connecting-to-your-code-locally.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_connecting-to-your-code-locally.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_creating-a-repository-for-your-project-on-github.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_deploying-your-website-automatically.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_deploying-your-website-automatically.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_git-and-github-learning-resources.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_git-and-github-learning-resources.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_planning-your-work.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_planning-your-work.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_reviewing-your-proposed-changes.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_reviewing-your-proposed-changes.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_what-is-github.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_what-is-github.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_start-your-journey_writing-and-storing-your-code.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_start-your-journey_writing-and-storing-your-code.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_using-github_connecting-to-github.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_using-github_connecting-to-github.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_using-github_github-flow.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_using-github_github-flow.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_get-started_using-github_hello-world.png",
+    "diffPixels": 116,
+    "diffPercent": "0.001",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_get-started_using-github_hello-world.png"
+  },
+  {
+    "site": "github-docs",
+    "page": "en_main-content.png",
+    "diffPixels": 0,
+    "diffPercent": "0.000",
+    "diffPath": "../results/visual_diffs/github-docs/diff_en_main-content.png"
+  }
+]

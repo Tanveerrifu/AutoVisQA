@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-08-30T07:12:23.285882Z",
+  "run_folder": "github-docs-full-30-Aug-2026(1_05PM)",
+  "performance_anomalies": {
+    "per_page": [],
+    "run_level": [
+      {
+        "previous_run": "mdn-final-30-Aug-2026(12_54PM)",
+        "previous_avg": 5.878,
+        "latest_avg": 5.7965,
+        "percent_change": -1.386526029261656,
+        "alert": false
+      }
+    ]
+  },
+  "visual_anomalies": [
+    {
+      "url": null,
+      "diffPercent": 19.866,
+      "reason": "high_diff"
+    },
+    {
+      "url": null,
+      "diffPercent": 19.866,
+      "reason": "high_diff"
+    },
+    {
+      "url": null,
+      "diffPercent": 19.856,
+      "reason": "high_diff"
+    },
+    {
+      "url": null,
+      "diffPercent": 19.821,
+      "reason": "high_diff"
+    },
+    {
+      "url": null,
+      "diffPercent": 19.854,
+      "reason": "high_diff"
+    },
+    {
+      "url": null,
+      "diffPercent": 15.179,
+      "reason": "high_diff"
+    },
+    {
+      "url": null,
+      "diffPercent": 12.902,
+      "reason": "high_diff"
+    }
+  ],
+  "summary": {
+    "source": "local",
+    "text": "- Run average load time changed by -1.4% vs previous run (mdn-final-30-Aug-2026(12_54PM)).\n- 7 visual change(s) exceed threshold \u2014 possible UI regressions. Check screenshots/PDFs for those URLs.\n\nRecommendations:\n- Check the top slow pages and audit heavy network requests / large images / blocking scripts.\n- For visual diffs, open the saved PDFs/screenshots for the flagged pages and run a DOM/selector-level diff to locate the root cause."
+  }
+}
