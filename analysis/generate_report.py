@@ -29,6 +29,7 @@ folders = [
     f for f in os.listdir(RESULTS)
     if os.path.isdir(os.path.join(RESULTS, f))
     and f not in ["visual_diffs", "charts"]
+    and os.path.exists(os.path.join(RESULTS, f, "summary.json"))
 ]
 if not folders:
     raise FileNotFoundError("❌ No crawl results found in /results/")

@@ -9,13 +9,23 @@ from datetime import datetime
 RESULTS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "results"))
 
 # === STEP 1: Find latest crawl folder ===
-folders = [f for f in glob.glob(os.path.join(RESULTS_DIR, "*")) if os.path.isdir(f)]
+requested_folder = os.environ.get("RUN_FOLDER")
+folders = [
+    f for f in glob.glob(os.path.join(RESULTS_DIR, "*"))
+    if os.path.isdir(f) and os.path.exists(os.path.join(f, "summary.json"))
+]
 
 if not folders:
     print("⚠️ No crawl folders found inside:", RESULTS_DIR)
     exit(1)
 
-latest_folder = max(folders, key=os.path.getmtime)
+if requested_folder:
+    latest_folder = os.path.join(RESULTS_DIR, requested_folder)
+    if not os.path.exists(os.path.join(latest_folder, "summary.json")):
+        print(f"❌ No summary.json found for requested folder: {requested_folder}")
+        exit(1)
+else:
+    latest_folder = max(folders, key=os.path.getmtime)
 SUMMARY_PATH = os.path.join(latest_folder, "summary.json")
 
 print(f"📂 Reading summary from: {SUMMARY_PATH}")

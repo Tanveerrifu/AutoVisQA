@@ -3,5 +3,11 @@
   "waitTime": 30000,
   "maxDepth": 3,
   "outputDir": "../results",
-  "headless": true
+  "headless": true,
+  "screenshotLimit": 20,
+  "savePdf": true,
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  }
 }

@@ -1,0 +1,12 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# Personal / unrelated material that should not be public
+*CV*.pdf
+results/
+results/paper-icece2026/
+results/visual_diffs_v5/_*/

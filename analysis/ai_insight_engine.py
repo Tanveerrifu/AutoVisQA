@@ -54,6 +54,7 @@ def latest_results_folder():
         f for f in os.listdir(RESULTS_DIR)
         if os.path.isdir(os.path.join(RESULTS_DIR, f))
         and f not in ("visual_diffs", "charts")
+        and os.path.exists(os.path.join(RESULTS_DIR, f, "summary.json"))
     ]
     if not folders:
         raise FileNotFoundError("No result folders found in results/")

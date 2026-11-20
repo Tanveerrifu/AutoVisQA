@@ -39,7 +39,7 @@ def send_email(cfg, subject, body):
         context = ssl.create_default_context()
         with smtplib.SMTP(cfg["smtp_server"], cfg["smtp_port"]) as server:
             server.starttls(context=context)
-            server.login(cfg["username"], cfg["password"])
+            server.login(cfg["username"], os.environ.get("SMTP_PASSWORD") or cfg["password"])
             server.send_message(msg)
         print("Email sent successfully ✅")
     except Exception as e:

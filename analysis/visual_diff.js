@@ -14,31 +14,46 @@ import pixelmatch from "pixelmatch";
 // === CONFIG ===
 const resultsDir = "../results";
 const ignoreFolders = ["charts", "visual_diffs"];
+const explicitRunA = process.env.RUN_A;
+const explicitRunB = process.env.RUN_B;
+const explicitOutputDir = process.env.OUTPUT_DIR;
+const siteLabel = process.env.SITE_LABEL || "";
 
-// === Load valid crawl folders ===
-const allEntries = (await fs.readdir(resultsDir))
-  .filter((f) => !ignoreFolders.includes(f))
-  .map((f) => ({
-    name: f,
-    path: path.join(resultsDir, f),
-    mtime: fs.statSync(path.join(resultsDir, f)).mtime,
-  }))
-  .filter((entry) => fs.existsSync(path.join(entry.path, "screenshots")));
+let runA;
+let runB;
 
-if (allEntries.length < 2) {
-  console.error("⚠️ Need at least two crawl folders!");
-  process.exit(1);
+if (explicitRunA && explicitRunB) {
+  runA = path.join(resultsDir, explicitRunA, "screenshots");
+  runB = path.join(resultsDir, explicitRunB, "screenshots");
+} else {
+  // === Load valid crawl folders ===
+  const allEntries = (await fs.readdir(resultsDir))
+    .filter((f) => !ignoreFolders.includes(f))
+    .map((f) => ({
+      name: f,
+      path: path.join(resultsDir, f),
+      mtime: fs.statSync(path.join(resultsDir, f)).mtime,
+    }))
+    .filter((entry) => fs.existsSync(path.join(entry.path, "screenshots")));
+
+  if (allEntries.length < 2) {
+    console.error("⚠️ Need at least two crawl folders!");
+    process.exit(1);
+  }
+
+  allEntries.sort((a, b) => b.mtime - a.mtime);
+  const [latest, previous] = [allEntries[0], allEntries[1]];
+
+  runA = path.join(previous.path, "screenshots");
+  runB = path.join(latest.path, "screenshots");
 }
 
-allEntries.sort((a, b) => b.mtime - a.mtime);
-const [latest, previous] = [allEntries[0], allEntries[1]];
-
-const runA = path.join(previous.path, "screenshots");
-const runB = path.join(latest.path, "screenshots");
-const outputDir = path.join(resultsDir, "visual_diffs");
+const outputDir = explicitOutputDir
+  ? path.join(resultsDir, "visual_diffs", explicitOutputDir)
+  : path.join(resultsDir, "visual_diffs");
 await fs.ensureDir(outputDir);
 
-console.log("🔍 Comparing latest two runs:");
+console.log("🔍 Comparing runs:");
 console.log("📁 Old:", runA);
 console.log("📁 New:", runB);
 
@@ -116,7 +131,7 @@ for (const [key, fileA] of mapA) {
 
   console.log(`   ✅ Difference: ${diffPercent}%`);
 
-  summary.push({ page: key, diffPixels, diffPercent, diffPath });
+  summary.push({ site: siteLabel, page: key, diffPixels, diffPercent, diffPath });
 }
 
 // === Save Summary ===
