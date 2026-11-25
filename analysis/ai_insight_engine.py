@@ -1,6 +1,5 @@
 """
-ai_insight_engine.py
-Phase 4 — AI QA Insight Engine
+Phase 4 — QA Insight Engine
 
 Usage:
     python ai_insight_engine.py
@@ -10,7 +9,6 @@ What it does:
 - Loads crawl_metrics.csv (or summary.json fallback) and visual_diff_summary.json
 - Runs anomaly detection on performance & visual diffs
 - Creates an insights JSON and an HTML snippet
-- (Optional) If OPENAI_API_KEY set and openai installed -> uses OpenAI to produce polished summary
 - Optionally injects the HTML snippet into the existing results/research_report.html and regenerates PDF (WeasyPrint)
 """
 
@@ -26,7 +24,6 @@ try:
 except Exception:
     pd = None
 
-# Optional OpenAI usage (only if available and configured)
 try:
     import openai
 except Exception:
@@ -238,7 +235,7 @@ def detect_visual_anomalies():
 
 
 # -------------------------
-# Natural language summary (optional OpenAI)
+# Natural language summary
 # -------------------------
 def make_prompt(perf_anoms, visual_anoms, run_info):
     lines = []
@@ -262,17 +259,10 @@ def make_prompt(perf_anoms, visual_anoms, run_info):
 
 
 def generate_text_summary(perf_anoms, visual_anoms, run_info):
-    """
-    If openai is configured and OPENAI_API_KEY present, call the API.
-    Otherwise, produce a local rule-based summary.
-    """
-    # If OpenAI available and key present, call it
     if openai is not None and os.environ.get("OPENAI_API_KEY"):
         try:
             prompt = make_prompt(perf_anoms, visual_anoms, run_info)
-            # Use ChatCompletion if available; adapt to user's environment
-            # We'll use `gpt-4o-mini` or fallback to `gpt-4o` depending on availability
-            model = os.environ.get("AI_MODEL", "gpt-4o-mini")  # user can override
+            model = os.environ.get("AI_MODEL", "gpt-4o-mini")
             resp = openai.ChatCompletion.create(
                 model=model,
                 messages=[{"role": "system", "content": "You are a QA data analyst."},
@@ -281,7 +271,6 @@ def generate_text_summary(perf_anoms, visual_anoms, run_info):
                 temperature=0.2,
             )
             text = ""
-            # Extract assistant text
             if "choices" in resp and len(resp["choices"]) > 0:
                 text = resp["choices"][0]["message"]["content"].strip()
             if text:

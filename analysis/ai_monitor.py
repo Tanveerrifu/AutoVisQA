@@ -1,8 +1,7 @@
 """
-ai_monitor.py
 Phase 5 — Configurable QA Monitor + Notifications
 -----------------------------------------------
-Loads config.json, runs Phase 4 (ai_insight_engine) with thresholds,
+Loads config.json, runs the insight engine with thresholds,
 and sends Slack / Email notifications automatically.
 """
 
