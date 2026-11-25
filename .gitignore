@@ -9,3 +9,4 @@ __pycache__/
 *CV*.pdf
 results/paper-icece2026/
 results/visual_diffs_v5/_*/
+Claude outputs/

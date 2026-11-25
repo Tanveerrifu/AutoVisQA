@@ -10,11 +10,9 @@
     "email": {
       "smtp_server": "smtp.gmail.com",
       "smtp_port": 587,
-      "username": "tanvir.cse.cu@gmail.com",
+      "username": "",
       "password": "",
-      "to": [
-        "tanvirrifat670@gmail.com"
-      ]
+      "to": []
     }
   },
   "report": {
