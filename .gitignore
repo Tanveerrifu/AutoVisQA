@@ -9,4 +9,9 @@ __pycache__/
 *CV*.pdf
 results/paper-icece2026/
 results/visual_diffs_v5/_*/
+
+# Paper files (published via IEEE, not in repo)
+results/paper-iccit2026/*.pdf
+results/paper-iccit2026/*.tex
+
 Claude outputs/
